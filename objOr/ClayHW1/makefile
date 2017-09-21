@@ -1,5 +1,4 @@
-#####################################
-# PLEASE MODIFY THE FOLLOWING 2 LINES
+#SE MODIFY THE FOLLOWING 2 LINES
 name    = ClayHW1
 #####################################
 
@@ -7,7 +6,7 @@ CC      = g++
 CFLAGS  = -Wall
 LFLAGS = -Wall
 
-all: compileIt zipIt clean
+all: ClayHW1 zipIt clean
 
 compileIt: $(name).o
 	$(CC) -o $@ $^ $(LDFLAGS)
@@ -20,4 +19,3 @@ clean:
 
 zipIt: 
 	zip -r $(name).zip $(name).cpp *.h README makefile
-
