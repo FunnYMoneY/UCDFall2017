@@ -1,6 +1,3 @@
-//
-// Created by Scott Clay on 9/15/17.
-//
 
 #include "Submarine.h"
 #include <iostream>
