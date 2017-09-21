@@ -1,13 +1,8 @@
-//
-// Created by Scott on 9/18/2017.
-//
-
-#ifndef LAB05_FUNCTIONS_H
-#define LAB05_FUNCTIONS_H
-
+#ifndef FUNCTIONS // Including the H gave
+#define FUNCTIONS // an "extra tokens warning"
 
 int rollDice(int sides);
 int playGame(int goal);
 
+#endif
 
-#endif //LAB05_FUNCTIONS_H
