@@ -1,0 +1,20 @@
+Name: Scott Clay
+ID: 830386876
+
+Structure of program:
+---------------------
+File organization: ClayHW1.cpp
+Functional organization: ClayHW2 contains a main .cpp and a class header and implementation
+				file.
+			 main() takes input & returns the desired output
+			 class grid outlines a class to create 2 types of 2-dimensional
+				arrays - one new, filled with zeros and ones randomly
+				       - one based on two other arrays
+			 grid.cpp is the implementation file for grid.h
+
+Status: It works completely
+
+Hardware & Platform I used: Intel core i5 1.4 GHz processor with 4GB RAM (macOS Sierra operating system)
+
+Compile: extract the archive, and then from a shell run "make". This will create an executable “ClayHW2”. Then run ./ClayHW2
+

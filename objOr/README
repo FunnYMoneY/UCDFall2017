@@ -1,0 +1,14 @@
+Name: Scott Clay
+ID: 830386876
+
+Structure of program:
+---------------------
+File organization: ClayHW1.cpp
+Functional organization: main() takes input & prints the desired output.
+
+Status: It works completely
+
+Hardware & Platform I used: Intel core i5 1.4 GHz processor with 4GB RAM (macOS Sierra operating system)
+
+Compile: extract the archive, and then from a shell run "make". This will create an executable "compileIt". Then run ./compileIt
+
