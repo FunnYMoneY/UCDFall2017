@@ -1,0 +1,5 @@
+#CLion Project Folders
+cmake-buil-debug/
+.idea/
+CMakeLists.txt
+
