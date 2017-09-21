@@ -1,9 +1,6 @@
-//
-// Created by Scott on 9/18/2017.
-//
 
-#ifndef LAB05_FUNCTIONS_H
-#define LAB05_FUNCTIONS_H
+#ifndef FUNCTIONS_H
+#define FUNCTIONS_H
 
 
 int rollDice(int sides);

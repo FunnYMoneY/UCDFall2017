@@ -1,8 +1,6 @@
-//
-// Created by Scott on 9/18/2017.
-//
 
 #include "functions.h"
+#include <stdlib.h>
 #include <iostream>
 #include <ctime>
 using namespace std;
