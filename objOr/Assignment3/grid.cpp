@@ -39,29 +39,31 @@ int grid::getColSize() {
 }
 
 void grid::initializeGrid(){
-	gridArr = new int*[rows];
+	gridArr = new char*[rows];
         for(int i = 0; i < rows; i++){
-                gridArr[i] = new int[cols];
+                gridArr[i] = new char[cols];
 		for (int j = 0; j < cols; j++) {
-			gridArr[i][j] = 0;
+			gridArr[i][j] = ' ';
 	        }
 	}
 }
 
 void grid::randomizeGrid() {
-	int area = rows * cols;
-	int remainingOnes = area / 3;
+	int hit = 0;
+    //int area = rows * cols;
+	int remainingOnes = 15; //area / 3;
 	while (remainingOnes != 0) {
 		for(int i = 0; i < rows; ++i){
      			for(int j = 0; j < cols; j++){
-				if (gridArr[i][j] != 1){
-					srand((unsigned)time(NULL));
-					gridArr[i][j] = rand() % 2;
-					if (gridArr[i][j] == 1)
-						remainingOnes--;
+				if (gridArr[i][j] != 'x') {
+                    srand((unsigned)time(nullptr));
+                    hit = rand() % 2;
+                    if (hit == 1) {
+                        gridArr[i][j] = 'x';
+                        remainingOnes--;
+                    }
 				}
-
-				if (remainingOnes == 0)
+                    if (remainingOnes == 0)
 					break;
 			}
 

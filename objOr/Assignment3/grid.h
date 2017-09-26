@@ -15,7 +15,7 @@ public:
 private:
 	int rows;
 	int cols;
-	int** gridArr;
+	char** gridArr;
 };
 /*
 grid::grid(){

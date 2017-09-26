@@ -22,7 +22,8 @@ int Submarine::getDiveDepth() { return diveDepth; }
 
 bool Submarine::isSurfaced() { return surfaced; }
 
-bool Submarine::isHit() {
+bool Submarine::isHit(grid gameboard) {
+
     //TODO
     return false;
 }
