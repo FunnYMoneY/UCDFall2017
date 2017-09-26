@@ -40,8 +40,10 @@ int WaterVehicle::getOri() {
 
 bool inSunk() {
     //TODO
+    return false;
 }
 
 bool isHit() {
     //TODO
+    return false;
 }

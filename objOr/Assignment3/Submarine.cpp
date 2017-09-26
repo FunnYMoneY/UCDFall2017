@@ -24,4 +24,5 @@ bool Submarine::isSurfaced() { return surfaced; }
 
 bool Submarine::isHit() {
     //TODO
+    return false;
 }
