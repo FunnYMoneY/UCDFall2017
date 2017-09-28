@@ -15,7 +15,7 @@ grid::grid(int numRows, int numCols){
 	rows = numRows;
 	cols = numCols;
 	grid::initializeGrid();
-	grid::randomizeGrid();
+    grid::randomizeShots();
 }
 
 grid::grid(grid& grid1, grid& grid2){
@@ -27,7 +27,7 @@ grid::grid(grid& grid1, grid& grid2){
 	initializeGrid();
 
 	// set 1s where grid1 and grid2 are both 1
-	intersectGrids(grid1, grid2);
+	//intersectGrids(grid1, grid2);
 }
 
 int grid::getRowSize() {
@@ -48,7 +48,7 @@ void grid::initializeGrid(){
 	}
 }
 
-void grid::randomizeGrid() {
+void grid::randomizeShots() {
 	int hit = 0;
     //int area = rows * cols;
 	int remainingOnes = 15; //area / 3;
@@ -73,19 +73,23 @@ void grid::randomizeGrid() {
 	}
 }
 
-void grid::intersectGrids(grid& grid1, grid& grid2) {
-	for (int i = 0; i < rows; i++) {
-		for (int j = 0; j < cols; j++) {
-			if (grid1.getPosVal(i,j) == 1 && grid2.getPosVal(i,j) == 1)
-				gridArr[i][j] = 1;
-			else
-				gridArr[i][j] = 0;
-		}
-	}
+bool grid::hasX(grid &grid2, int i, int j) {
+    if (gridArr[i][j] == 'x' && grid2.getPosVal(i,j) == 'x')
+        return true;
+    else
+        return false;
 }
 
-int grid::getPosVal(int i, int j) {
+char grid::getPosVal(int i, int j) {
 	return gridArr[i][j];
+}
+
+void grid::setPointX(int x, int y) {
+    gridArr[x][y] = 'x';
+}
+
+void grid::setPointO(int x, int y) {
+    gridArr[x][y] = 'o';
 }
 
 void grid::printGrid() {

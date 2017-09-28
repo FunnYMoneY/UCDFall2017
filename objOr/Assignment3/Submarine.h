@@ -6,22 +6,23 @@
 #define ASSIGNMENT3_SUBMARINE_H
 
 #include "WaterVehicle.h"
-#include "grid.h"
 
 class Submarine : public WaterVehicle {
 public:
     void setDiveDepth(int);
 
-    int getDiveDepth();
-    bool isSurfaced();
-    bool isHit(grid); //TODO
-    bool isSunk(grid); //TODO
+    int getDiveDepth() const;
+    bool isSurfaced() const;
+
+    void printAttributes();
 
     Submarine();
-    Submarine(int, int, int, int);
-    ~Submarine();
+    Submarine(int, int, int, int, int);
+
+    Submarine& operator= (const Submarine&);
+
 private:
-    int diveDepth;
+    int diveDepth = 0;
     bool surfaced = false;
 };
 
