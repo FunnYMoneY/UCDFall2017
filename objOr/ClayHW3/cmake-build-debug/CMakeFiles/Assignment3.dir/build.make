@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/scott/Documents/UCDFall2017/objOr/Assignment3
+CMAKE_SOURCE_DIR = /Users/scott/Documents/UCDFall2017/objOr/ClayHW3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/scott/Documents/UCDFall2017/objOr/Assignment3/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/scott/Documents/UCDFall2017/objOr/ClayHW3/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Assignment3.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Assignment3.dir/flags.make
 
 CMakeFiles/Assignment3.dir/main.cpp.o: CMakeFiles/Assignment3.dir/flags.make
 CMakeFiles/Assignment3.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scott/Documents/UCDFall2017/objOr/Assignment3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Assignment3.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment3.dir/main.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/Assignment3/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scott/Documents/UCDFall2017/objOr/ClayHW3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Assignment3.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment3.dir/main.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/ClayHW3/main.cpp
 
 CMakeFiles/Assignment3.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment3.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/Assignment3/main.cpp > CMakeFiles/Assignment3.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/ClayHW3/main.cpp > CMakeFiles/Assignment3.dir/main.cpp.i
 
 CMakeFiles/Assignment3.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment3.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/Assignment3/main.cpp -o CMakeFiles/Assignment3.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/ClayHW3/main.cpp -o CMakeFiles/Assignment3.dir/main.cpp.s
 
 CMakeFiles/Assignment3.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Assignment3.dir/main.cpp.o.provides.build: CMakeFiles/Assignment3.dir
 
 CMakeFiles/Assignment3.dir/WaterVehicle.cpp.o: CMakeFiles/Assignment3.dir/flags.make
 CMakeFiles/Assignment3.dir/WaterVehicle.cpp.o: ../WaterVehicle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scott/Documents/UCDFall2017/objOr/Assignment3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Assignment3.dir/WaterVehicle.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment3.dir/WaterVehicle.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/Assignment3/WaterVehicle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scott/Documents/UCDFall2017/objOr/ClayHW3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Assignment3.dir/WaterVehicle.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment3.dir/WaterVehicle.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/ClayHW3/WaterVehicle.cpp
 
 CMakeFiles/Assignment3.dir/WaterVehicle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment3.dir/WaterVehicle.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/Assignment3/WaterVehicle.cpp > CMakeFiles/Assignment3.dir/WaterVehicle.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/ClayHW3/WaterVehicle.cpp > CMakeFiles/Assignment3.dir/WaterVehicle.cpp.i
 
 CMakeFiles/Assignment3.dir/WaterVehicle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment3.dir/WaterVehicle.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/Assignment3/WaterVehicle.cpp -o CMakeFiles/Assignment3.dir/WaterVehicle.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/ClayHW3/WaterVehicle.cpp -o CMakeFiles/Assignment3.dir/WaterVehicle.cpp.s
 
 CMakeFiles/Assignment3.dir/WaterVehicle.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Assignment3.dir/WaterVehicle.cpp.o.provides.build: CMakeFiles/Assignm
 
 CMakeFiles/Assignment3.dir/Submarine.cpp.o: CMakeFiles/Assignment3.dir/flags.make
 CMakeFiles/Assignment3.dir/Submarine.cpp.o: ../Submarine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scott/Documents/UCDFall2017/objOr/Assignment3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Assignment3.dir/Submarine.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment3.dir/Submarine.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/Assignment3/Submarine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scott/Documents/UCDFall2017/objOr/ClayHW3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Assignment3.dir/Submarine.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment3.dir/Submarine.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/ClayHW3/Submarine.cpp
 
 CMakeFiles/Assignment3.dir/Submarine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment3.dir/Submarine.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/Assignment3/Submarine.cpp > CMakeFiles/Assignment3.dir/Submarine.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/ClayHW3/Submarine.cpp > CMakeFiles/Assignment3.dir/Submarine.cpp.i
 
 CMakeFiles/Assignment3.dir/Submarine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment3.dir/Submarine.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/Assignment3/Submarine.cpp -o CMakeFiles/Assignment3.dir/Submarine.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/ClayHW3/Submarine.cpp -o CMakeFiles/Assignment3.dir/Submarine.cpp.s
 
 CMakeFiles/Assignment3.dir/Submarine.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Assignment3.dir/Submarine.cpp.o.provides.build: CMakeFiles/Assignment
 
 CMakeFiles/Assignment3.dir/grid.cpp.o: CMakeFiles/Assignment3.dir/flags.make
 CMakeFiles/Assignment3.dir/grid.cpp.o: ../grid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scott/Documents/UCDFall2017/objOr/Assignment3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Assignment3.dir/grid.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment3.dir/grid.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/Assignment3/grid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scott/Documents/UCDFall2017/objOr/ClayHW3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Assignment3.dir/grid.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment3.dir/grid.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/ClayHW3/grid.cpp
 
 CMakeFiles/Assignment3.dir/grid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment3.dir/grid.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/Assignment3/grid.cpp > CMakeFiles/Assignment3.dir/grid.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/ClayHW3/grid.cpp > CMakeFiles/Assignment3.dir/grid.cpp.i
 
 CMakeFiles/Assignment3.dir/grid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment3.dir/grid.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/Assignment3/grid.cpp -o CMakeFiles/Assignment3.dir/grid.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/ClayHW3/grid.cpp -o CMakeFiles/Assignment3.dir/grid.cpp.s
 
 CMakeFiles/Assignment3.dir/grid.cpp.o.requires:
 
@@ -169,7 +169,7 @@ Assignment3: CMakeFiles/Assignment3.dir/Submarine.cpp.o
 Assignment3: CMakeFiles/Assignment3.dir/grid.cpp.o
 Assignment3: CMakeFiles/Assignment3.dir/build.make
 Assignment3: CMakeFiles/Assignment3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/scott/Documents/UCDFall2017/objOr/Assignment3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Assignment3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/scott/Documents/UCDFall2017/objOr/ClayHW3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Assignment3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Assignment3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -189,6 +189,6 @@ CMakeFiles/Assignment3.dir/clean:
 .PHONY : CMakeFiles/Assignment3.dir/clean
 
 CMakeFiles/Assignment3.dir/depend:
-	cd /Users/scott/Documents/UCDFall2017/objOr/Assignment3/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/scott/Documents/UCDFall2017/objOr/Assignment3 /Users/scott/Documents/UCDFall2017/objOr/Assignment3 /Users/scott/Documents/UCDFall2017/objOr/Assignment3/cmake-build-debug /Users/scott/Documents/UCDFall2017/objOr/Assignment3/cmake-build-debug /Users/scott/Documents/UCDFall2017/objOr/Assignment3/cmake-build-debug/CMakeFiles/Assignment3.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/scott/Documents/UCDFall2017/objOr/ClayHW3/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/scott/Documents/UCDFall2017/objOr/ClayHW3 /Users/scott/Documents/UCDFall2017/objOr/ClayHW3 /Users/scott/Documents/UCDFall2017/objOr/ClayHW3/cmake-build-debug /Users/scott/Documents/UCDFall2017/objOr/ClayHW3/cmake-build-debug /Users/scott/Documents/UCDFall2017/objOr/ClayHW3/cmake-build-debug/CMakeFiles/Assignment3.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Assignment3.dir/depend
 

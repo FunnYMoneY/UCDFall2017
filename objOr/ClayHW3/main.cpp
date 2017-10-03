@@ -48,5 +48,6 @@ int main() {
 
     gameboard.deletePointer();
     boatPos.deletePointer();
+
     return 0;
 }

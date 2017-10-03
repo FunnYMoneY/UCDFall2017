@@ -1,3 +1,3 @@
-/Users/scott/Documents/UCDFall2017/objOr/Assignment3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/scott/Documents/UCDFall2017/objOr/Assignment3/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/scott/Documents/UCDFall2017/objOr/Assignment3/cmake-build-debug/CMakeFiles/Assignment3.dir
+/Users/scott/Documents/UCDFall2017/objOr/ClayHW3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/scott/Documents/UCDFall2017/objOr/ClayHW3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/scott/Documents/UCDFall2017/objOr/ClayHW3/cmake-build-debug/CMakeFiles/Assignment3.dir

@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ClayHW4.dir/main.cpp.o CMakeFiles/ClayHW4.dir/Animal.cpp.o CMakeFiles/ClayHW4.dir/Dog.cpp.o CMakeFiles/ClayHW4.dir/Fish.cpp.o CMakeFiles/ClayHW4.dir/Horse.cpp.o CMakeFiles/ClayHW4.dir/Monkey.cpp.o CMakeFiles/ClayHW4.dir/Lizard.cpp.o  -o ClayHW4 
