@@ -11,7 +11,7 @@ using std::cin;
 using std::endl;
 
 int main() {
-    
+
     try {
 
     }
@@ -22,6 +22,6 @@ int main() {
     return 0;
 }
 
-void readFile(Animal obj, ifstream infile) {
-    obj.readFile(infile);
-}
+//void readFile(Animal obj, ifstream infile) {
+//    obj.readFile(infile);
+//}

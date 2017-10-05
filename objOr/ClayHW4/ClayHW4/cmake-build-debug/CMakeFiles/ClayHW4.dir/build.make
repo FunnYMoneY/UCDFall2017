@@ -60,15 +60,15 @@ include CMakeFiles/ClayHW4.dir/flags.make
 CMakeFiles/ClayHW4.dir/main.cpp.o: CMakeFiles/ClayHW4.dir/flags.make
 CMakeFiles/ClayHW4.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ClayHW4.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClayHW4.dir/main.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/main.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClayHW4.dir/main.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/main.cpp
 
 CMakeFiles/ClayHW4.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClayHW4.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/main.cpp > CMakeFiles/ClayHW4.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/main.cpp > CMakeFiles/ClayHW4.dir/main.cpp.i
 
 CMakeFiles/ClayHW4.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClayHW4.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/main.cpp -o CMakeFiles/ClayHW4.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/main.cpp -o CMakeFiles/ClayHW4.dir/main.cpp.s
 
 CMakeFiles/ClayHW4.dir/main.cpp.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/ClayHW4.dir/main.cpp.o.provides.build: CMakeFiles/ClayHW4.dir/main.cp
 CMakeFiles/ClayHW4.dir/Animal.cpp.o: CMakeFiles/ClayHW4.dir/flags.make
 CMakeFiles/ClayHW4.dir/Animal.cpp.o: ../Animal.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ClayHW4.dir/Animal.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClayHW4.dir/Animal.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Animal.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClayHW4.dir/Animal.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Animal.cpp
 
 CMakeFiles/ClayHW4.dir/Animal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClayHW4.dir/Animal.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Animal.cpp > CMakeFiles/ClayHW4.dir/Animal.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Animal.cpp > CMakeFiles/ClayHW4.dir/Animal.cpp.i
 
 CMakeFiles/ClayHW4.dir/Animal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClayHW4.dir/Animal.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Animal.cpp -o CMakeFiles/ClayHW4.dir/Animal.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Animal.cpp -o CMakeFiles/ClayHW4.dir/Animal.cpp.s
 
 CMakeFiles/ClayHW4.dir/Animal.cpp.o.requires:
 
@@ -108,15 +108,15 @@ CMakeFiles/ClayHW4.dir/Animal.cpp.o.provides.build: CMakeFiles/ClayHW4.dir/Anima
 CMakeFiles/ClayHW4.dir/Dog.cpp.o: CMakeFiles/ClayHW4.dir/flags.make
 CMakeFiles/ClayHW4.dir/Dog.cpp.o: ../Dog.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ClayHW4.dir/Dog.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClayHW4.dir/Dog.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Dog.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClayHW4.dir/Dog.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Dog.cpp
 
 CMakeFiles/ClayHW4.dir/Dog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClayHW4.dir/Dog.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Dog.cpp > CMakeFiles/ClayHW4.dir/Dog.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Dog.cpp > CMakeFiles/ClayHW4.dir/Dog.cpp.i
 
 CMakeFiles/ClayHW4.dir/Dog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClayHW4.dir/Dog.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Dog.cpp -o CMakeFiles/ClayHW4.dir/Dog.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Dog.cpp -o CMakeFiles/ClayHW4.dir/Dog.cpp.s
 
 CMakeFiles/ClayHW4.dir/Dog.cpp.o.requires:
 
@@ -132,15 +132,15 @@ CMakeFiles/ClayHW4.dir/Dog.cpp.o.provides.build: CMakeFiles/ClayHW4.dir/Dog.cpp.
 CMakeFiles/ClayHW4.dir/Fish.cpp.o: CMakeFiles/ClayHW4.dir/flags.make
 CMakeFiles/ClayHW4.dir/Fish.cpp.o: ../Fish.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ClayHW4.dir/Fish.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClayHW4.dir/Fish.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Fish.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClayHW4.dir/Fish.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Fish.cpp
 
 CMakeFiles/ClayHW4.dir/Fish.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClayHW4.dir/Fish.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Fish.cpp > CMakeFiles/ClayHW4.dir/Fish.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Fish.cpp > CMakeFiles/ClayHW4.dir/Fish.cpp.i
 
 CMakeFiles/ClayHW4.dir/Fish.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClayHW4.dir/Fish.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Fish.cpp -o CMakeFiles/ClayHW4.dir/Fish.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Fish.cpp -o CMakeFiles/ClayHW4.dir/Fish.cpp.s
 
 CMakeFiles/ClayHW4.dir/Fish.cpp.o.requires:
 
@@ -156,15 +156,15 @@ CMakeFiles/ClayHW4.dir/Fish.cpp.o.provides.build: CMakeFiles/ClayHW4.dir/Fish.cp
 CMakeFiles/ClayHW4.dir/Horse.cpp.o: CMakeFiles/ClayHW4.dir/flags.make
 CMakeFiles/ClayHW4.dir/Horse.cpp.o: ../Horse.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ClayHW4.dir/Horse.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClayHW4.dir/Horse.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Horse.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClayHW4.dir/Horse.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Horse.cpp
 
 CMakeFiles/ClayHW4.dir/Horse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClayHW4.dir/Horse.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Horse.cpp > CMakeFiles/ClayHW4.dir/Horse.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Horse.cpp > CMakeFiles/ClayHW4.dir/Horse.cpp.i
 
 CMakeFiles/ClayHW4.dir/Horse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClayHW4.dir/Horse.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Horse.cpp -o CMakeFiles/ClayHW4.dir/Horse.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Horse.cpp -o CMakeFiles/ClayHW4.dir/Horse.cpp.s
 
 CMakeFiles/ClayHW4.dir/Horse.cpp.o.requires:
 
@@ -180,15 +180,15 @@ CMakeFiles/ClayHW4.dir/Horse.cpp.o.provides.build: CMakeFiles/ClayHW4.dir/Horse.
 CMakeFiles/ClayHW4.dir/Monkey.cpp.o: CMakeFiles/ClayHW4.dir/flags.make
 CMakeFiles/ClayHW4.dir/Monkey.cpp.o: ../Monkey.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ClayHW4.dir/Monkey.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClayHW4.dir/Monkey.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Monkey.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClayHW4.dir/Monkey.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Monkey.cpp
 
 CMakeFiles/ClayHW4.dir/Monkey.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClayHW4.dir/Monkey.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Monkey.cpp > CMakeFiles/ClayHW4.dir/Monkey.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Monkey.cpp > CMakeFiles/ClayHW4.dir/Monkey.cpp.i
 
 CMakeFiles/ClayHW4.dir/Monkey.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClayHW4.dir/Monkey.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Monkey.cpp -o CMakeFiles/ClayHW4.dir/Monkey.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Monkey.cpp -o CMakeFiles/ClayHW4.dir/Monkey.cpp.s
 
 CMakeFiles/ClayHW4.dir/Monkey.cpp.o.requires:
 
@@ -204,15 +204,15 @@ CMakeFiles/ClayHW4.dir/Monkey.cpp.o.provides.build: CMakeFiles/ClayHW4.dir/Monke
 CMakeFiles/ClayHW4.dir/Lizard.cpp.o: CMakeFiles/ClayHW4.dir/flags.make
 CMakeFiles/ClayHW4.dir/Lizard.cpp.o: ../Lizard.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ClayHW4.dir/Lizard.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClayHW4.dir/Lizard.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Lizard.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClayHW4.dir/Lizard.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Lizard.cpp
 
 CMakeFiles/ClayHW4.dir/Lizard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClayHW4.dir/Lizard.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Lizard.cpp > CMakeFiles/ClayHW4.dir/Lizard.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Lizard.cpp > CMakeFiles/ClayHW4.dir/Lizard.cpp.i
 
 CMakeFiles/ClayHW4.dir/Lizard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClayHW4.dir/Lizard.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Lizard.cpp -o CMakeFiles/ClayHW4.dir/Lizard.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Lizard.cpp -o CMakeFiles/ClayHW4.dir/Lizard.cpp.s
 
 CMakeFiles/ClayHW4.dir/Lizard.cpp.o.requires:
 
