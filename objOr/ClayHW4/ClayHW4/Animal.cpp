@@ -3,6 +3,9 @@
 //
 
 #include "Animal.h"
+using std::cout;
+using std::cin;
+using std::endl;
 
 Animal::Animal() {
 
@@ -29,3 +32,23 @@ string Animal::getColor() {
     return color;
 }
 
+int Animal::getReadStatus() {
+    return readStatus;
+}
+
+void Animal::readFile() {
+    //Overridden function
+}
+
+void Animal::print() const {
+    //Overridden function
+}
+
+string Animal::getType() const{
+    return "Animal";
+};
+
+void Animal::exceptionHandler1(const string type, int& status) {
+    cout << "Error reading file for " << type << endl;
+    status++;
+}

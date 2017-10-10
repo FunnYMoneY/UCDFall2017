@@ -10,16 +10,22 @@
 class Horse : public Animal {
 public:
     Horse();
-    Horse(string, string, int, int, string);
+    Horse(string&, string&, int&, int&, string&);
 
-    void setAge();
-    void setHeight();
-    void setManeColor();
+    void setAge(int&);
+    void setHeight(int&);
+    void setManeColor(string&);
 
-    int getAge();
-    int getHeight();
-    string getManeColor();
+    int getAge() const;
+    int getHeight() const;
+    string getManeColor() const;
+
+    void readFile();
     void print() const;
+
+    void add1(); //adds 1 to height
+
+    string getType() const;
 
 private:
     int age;

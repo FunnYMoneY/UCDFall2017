@@ -10,18 +10,24 @@
 class Monkey : public Animal {
 public:
     Monkey();
-    Monkey(string, string, int, bool, bool, string);
+    Monkey(string&, string&, int&, bool&, bool&, string&);
 
-    void setAge();
-    void setWild();
-    void setEndangered();
-    void setHome();
+    void setAge(int&);
+    void setWild(bool&);
+    void setEndangered(bool&);
+    void setHome(string&);
 
-    int getAge();
-    bool isWild();
-    bool isEndangered();
-    string getHome();
+    int getAge() const;
+    bool isWild() const;
+    bool isEndangered() const;
+    string getHome() const;
+
+    void readFile();
     void print() const;
+
+    void changeEndangered(); //switches endangered
+
+    string getType() const;
 
 private:
     int age;

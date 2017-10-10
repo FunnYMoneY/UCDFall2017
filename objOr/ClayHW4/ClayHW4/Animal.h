@@ -18,15 +18,21 @@ public:
 
     void setName(string);
     void setColor(string);
-    virtual void readFile(ifstream) const;
 
     string getName();
     string getColor();
+    int getReadStatus();
+
+    virtual void readFile();
     virtual void print() const;
+    virtual string getType() const;
+
+    void exceptionHandler1(const string, int&);
 
 protected:
     string name;
     string color;
+    int readStatus = 0;
 
 };
 

@@ -11,17 +11,23 @@
 class Dog : public Animal {
 public:
     Dog();
-    Dog(string, string, string, int, int);
+    Dog(string&, string&, string&, int&, int&);
 
-    void setBreed();
-    void setAge();
-    void setWeight();
+    void setBreed(string&);
+    void setAge(int&);
+    void setWeight(int&);
 
 
-    string getBreed();
-    int getAge();
-    int getWeight();
+    string getBreed() const;
+    int getAge() const;
+    int getWeight() const;
+
+    void readFile();
     void print() const;
+
+    void subtract10(); //subtracts 10 from weight
+
+    string getType() const;
 
 private:
     string breed;

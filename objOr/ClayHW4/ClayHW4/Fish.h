@@ -11,16 +11,20 @@
 class Fish : public Animal {
 public:
     Fish();
-    Fish(string, string, string, bool, bool);
+    Fish(string&, string&, string&, bool&, bool&);
 
-    void setHabitat();
-    void setFreshwater();
-    void setPredator();
+    void setHabitat(string&);
+    void setFreshwater(bool&);
+    void setPredator(bool&);
 
-    string getHabitat();
-    bool isFreshwater();
-    bool isPredator();
+    string getHabitat() const;
+    bool isFreshwater() const;
+    bool isPredator() const;
+
+    void readFile();
     void print() const;
+
+    string getType() const;
 
 private:
     string habitat;

@@ -59,6 +59,8 @@ Animal.h
 /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/main.cpp
 iostream
 -
+Animal.h
+/Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Animal.h
 Dog.h
 /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Dog.h
 Fish.h
@@ -69,6 +71,4 @@ Monkey.h
 /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Monkey.h
 Lizard.h
 /Users/scott/Documents/UCDFall2017/objOr/ClayHW4/ClayHW4/Lizard.h
-fstream
--
 

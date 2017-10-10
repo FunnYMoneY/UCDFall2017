@@ -11,21 +11,25 @@
 class Lizard : public Animal {
 public:
     Lizard();
-    Lizard(string, string, string, bool, int);
+    Lizard(string&, string&, string&, bool&, int&);
 
-    void setHabitat();
-    void setProtected();
-    void setWeight();
+    void setHabitat(string&);
+    void setProtected(bool&);
+    void setWeight(double&);
 
-    string getHabitat();
-    bool isProtected();
-    int getWeight();
+    string getHabitat() const;
+    bool isProtected() const;
+    int getWeight() const;
+
+    void readFile();
     void print() const;
+
+    string getType() const;
 
 private:
     string habitat;
     bool protect;
-    int weight;
+    double weight;
 
 };
 

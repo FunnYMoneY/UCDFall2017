@@ -3,12 +3,13 @@
 //
 
 #include "Lizard.h"
+using std::cout;
+using std::cin;
+using std::endl;
 
-Lizard::Lizard() {
+Lizard::Lizard() = default;
 
-}
-
-Lizard::Lizard(string inName, string inColor, string inHab, bool inProt, int inWeight) {
+Lizard::Lizard(string& inName, string& inColor, string& inHab, bool& inProt, int& inWeight) {
     name = inName;
     color = inColor;
     habitat = inHab;
@@ -16,30 +17,77 @@ Lizard::Lizard(string inName, string inColor, string inHab, bool inProt, int inW
     weight = inWeight;
 }
 
-void Lizard::setHabitat() {
-    //TODO
+void Lizard::setHabitat(string& in) {
+    habitat = in;
 }
 
-void Lizard::setProtected() {
-    //TODO
+void Lizard::setProtected(bool& in) {
+    protect = in;
 }
 
-void Lizard::setWeight() {
-    //TODO
+void Lizard::setWeight(double& in) {
+    weight = in;
 }
 
-string Lizard::getHabitat() {
+string Lizard::getHabitat() const {
     return habitat;
 }
 
-bool Lizard::isProtected() {
+bool Lizard::isProtected() const {
     return protect;
 }
 
-int Lizard::getWeight() {
+int Lizard::getWeight() const {
     return weight;
 }
 
+void Lizard::readFile() {
+    ifstream infile;
+    string protectString, weightString;
+
+    try {
+        infile.open("Lizard.txt");
+        if (!infile.is_open())
+            throw 1;
+
+        getline(infile, name, ',');
+        infile.ignore();
+
+        getline(infile, color, ',');
+        infile.ignore();
+
+        getline(infile, habitat, ',');
+        infile.ignore();
+
+        getline(infile, protectString, ',');
+        if (protectString == "yes" || protectString == "Yes")
+            protect = true;
+        else
+            protect = false;
+
+        infile >> weight;
+
+        infile.clear();
+    }
+    catch (int e) {
+        exceptionHandler1(getType(), readStatus);
+    }
+}
+
 void Lizard::print() const {
-    //TODO
+    cout << getType() << endl;
+    cout << "Name: " << name << endl;
+    cout << "Color: " << color << endl;
+    cout << "Habitat: " << habitat << endl;
+    cout << "Wild: ";
+    if (protect)
+        cout << "Yes" << endl;
+    else
+        cout << "No" << endl;
+    cout << "Weight: " << weight << " lbs" << endl;
+    cout << endl;
+}
+
+string Lizard::getType() const{
+    return "Lizard";
 }
