@@ -11,12 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="891e9530-6b30-4063-82b1-12a704e6d2b9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dog.cpp" afterPath="$PROJECT_DIR$/Dog.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Horse.cpp" afterPath="$PROJECT_DIR$/Horse.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lizard.cpp" afterPath="$PROJECT_DIR$/Lizard.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Monkey.cpp" afterPath="$PROJECT_DIR$/Monkey.cpp" />
-    </list>
+    <list default="true" id="891e9530-6b30-4063-82b1-12a704e6d2b9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,8 +61,8 @@
           <file leaf-file-name="Dog.cpp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Dog.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="410">
-                  <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+                <state relative-caret-position="412">
+                  <caret line="80" column="5" lean-forward="false" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
                   <folding>
                     <element signature="e#44#60#0" expanded="true" />
                     <element signature="e#184#371#0" expanded="false" />
@@ -109,7 +104,7 @@
             <entry file="file://$PROJECT_DIR$/Horse.cpp">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="211">
-                  <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+                  <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
                   <folding>
                     <element signature="e#171#367#0" expanded="false" />
                     <element signature="e#369#414#0" expanded="false" />
@@ -127,7 +122,7 @@
             <entry file="file://$PROJECT_DIR$/Monkey.cpp">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="252">
-                  <caret line="73" column="24" lean-forward="true" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+                  <caret line="73" column="24" lean-forward="false" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
                   <folding>
                     <element signature="e#174#405#0" expanded="false" />
                     <element signature="e#407#453#0" expanded="false" />
@@ -351,19 +346,19 @@
       <workItem from="1507239690567" duration="532000" />
       <workItem from="1507240276041" duration="572000" />
       <workItem from="1507600150150" duration="22757000" />
-      <workItem from="1507626626668" duration="3527000" />
+      <workItem from="1507626626668" duration="3631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34893000" />
+    <option name="totallyTimeSpent" value="34997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33956835" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33956835" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32805756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -942,7 +937,7 @@
     <entry file="file://$PROJECT_DIR$/Monkey.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="73" column="24" lean-forward="true" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+          <caret line="73" column="24" lean-forward="false" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
           <folding>
             <element signature="e#174#405#0" expanded="false" />
             <element signature="e#407#453#0" expanded="false" />
@@ -963,7 +958,7 @@
     <entry file="file://$PROJECT_DIR$/Horse.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
-          <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+          <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
           <folding>
             <element signature="e#171#367#0" expanded="false" />
             <element signature="e#369#414#0" expanded="false" />
@@ -1016,8 +1011,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dog.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        <state relative-caret-position="412">
+          <caret line="80" column="5" lean-forward="false" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
           <folding>
             <element signature="e#44#60#0" expanded="true" />
             <element signature="e#184#371#0" expanded="false" />
