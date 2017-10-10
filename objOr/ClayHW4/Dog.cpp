@@ -8,7 +8,8 @@ using std::cin;
 using std::endl;
 using std::stoi;
 
-Dog::Dog() = default;
+Dog::Dog() {
+}
 
 Dog::Dog(string& inName, string& inColor, string& inBreed, int& inAge, int& inWeight) {
     name = inName;

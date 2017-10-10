@@ -8,7 +8,8 @@ using std::cin;
 using std::endl;
 using std::stoi;
 
-Monkey::Monkey() = default;
+Monkey::Monkey() {
+}
 
 Monkey::Monkey(string& inName, string& inColor, int& inAge, bool& inWild, bool& inEndang, string& inHome) {
     name = inName;

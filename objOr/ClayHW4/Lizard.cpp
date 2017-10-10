@@ -7,7 +7,8 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-Lizard::Lizard() = default;
+Lizard::Lizard() {
+}
 
 Lizard::Lizard(string& inName, string& inColor, string& inHab, bool& inProt, int& inWeight) {
     name = inName;
