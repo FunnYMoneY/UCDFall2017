@@ -10,3 +10,11 @@ TechCult/
 
 .DS_Store
 
+FundLab/lab07-2/lab07-2/Debug/
+*.vcxproj
+*.filters
+FundLab/lab07-2/Debug/
+FundLab/lab07-2/.vs/
+FundLab/Lab07/Lab07/Debug/
+FundLab/Lab07/.vs/
+FundLab/Lab07/Debug/
