@@ -6,7 +6,6 @@
 using std::cout;
 using std::cin;
 using std::endl;
-using std::stoi;
 
 Horse::Horse() {
     readStatus = 0;

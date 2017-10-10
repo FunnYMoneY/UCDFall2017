@@ -6,7 +6,6 @@
 using std::cout;
 using std::cin;
 using std::endl;
-using std::stoi;
 
 Monkey::Monkey() {
     readStatus = 0;

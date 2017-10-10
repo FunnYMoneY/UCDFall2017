@@ -7,7 +7,6 @@
 using std::cout;
 using std::cin;
 using std::endl;
-using std::stoi;
 
 Dog::Dog() {
     readStatus = 0;
