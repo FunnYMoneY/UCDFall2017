@@ -3,6 +3,7 @@
 //
 
 #include "Dog.h"
+#include <cstdlib>
 using std::cout;
 using std::cin;
 using std::endl;
@@ -59,7 +60,7 @@ void Dog::readFile() {
         getline(infile, breed, ',');
         try {
             getline(infile, ageString, ',');
-            age = stoi(ageString);
+            age = static_cast<int>(strtol(ageString.c_str(), NULL, 0));
         }
         catch(std::invalid_argument&) {
             exceptionHandlerNumber(getType(), "age", age);
@@ -70,7 +71,7 @@ void Dog::readFile() {
 
         try {
             getline(infile, weightString);
-            weight = stoi(weightString);
+            weight = static_cast<int>(strtol(weightString.c_str(), NULL, 0));
         }
         catch (std::invalid_argument&) {
             exceptionHandlerNumber(getType(), "weight", weight);
