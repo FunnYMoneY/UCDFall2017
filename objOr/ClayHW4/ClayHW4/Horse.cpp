@@ -8,7 +8,9 @@ using std::cin;
 using std::endl;
 using std::stoi;
 
-Horse::Horse() = default;
+Horse::Horse() {
+    readStatus = 0;
+}
 
 Horse::Horse(string& inName, string& inColor, int& inAge, int& inHeight, string& inMane) {
     name = inName;

@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <fstream>
+#include <cstdlib>
 using std::string;
 using std::ifstream;
 
@@ -34,8 +35,7 @@ public:
 protected:
     string name;
     string color;
-    int readStatus = 0;
-
+    int readStatus;
 };
 
 

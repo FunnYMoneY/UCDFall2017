@@ -8,7 +8,7 @@ using std::cin;
 using std::endl;
 
 Animal::Animal() {
-
+    readStatus = 0;
 }
 
 Animal::Animal(string inName, string inColor) {

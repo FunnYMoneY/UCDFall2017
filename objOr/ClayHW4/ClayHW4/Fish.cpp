@@ -8,7 +8,9 @@ using std::cin;
 using std::endl;
 using std::stoi;
 
-Fish::Fish() = default;
+Fish::Fish() {
+    readStatus = 0;
+}
 
 Fish::Fish(string& inName, string& inColor, string& inHabitat, bool& inFresh, bool& inPred) {
     name = inName;
