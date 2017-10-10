@@ -71,7 +71,7 @@ void Monkey::readFile() {
             getline(infile, ageString, ',');
             age = static_cast<int>(strtol(ageString.c_str(), NULL, 0));
         }
-        catch (std::invalid_argument&) {
+        catch (int& e) {
             exceptionHandlerNumber(getType(), "age", age);
         }
 

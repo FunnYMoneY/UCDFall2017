@@ -65,14 +65,14 @@ void Horse::readFile() {
             getline(infile, ageString, ',');
             age = static_cast<int>(strtol(ageString.c_str(), NULL, 0));
         }
-        catch(std::invalid_argument&) {
+        catch(int& e) {
             exceptionHandlerNumber(getType(), "age", age);
         }
         try {
             getline(infile, heightString);
             height = static_cast<int>(strtol(heightString.c_str(), NULL, 0));
         }
-        catch (std::invalid_argument&) {
+        catch (int& e) {
             exceptionHandlerNumber(getType(), "height", height);
         }
 

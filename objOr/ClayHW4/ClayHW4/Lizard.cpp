@@ -71,13 +71,13 @@ void Lizard::readFile() {
             getline(infile, weightString);
             weight = static_cast<int>(strtol(weightString.c_str(), NULL, 0));
         }
-        catch(std::invalid_argument&) {
+        catch(int& e) {
             exceptionHandlerNumber(getType(), "weight", weight);
         }
 
         infile.clear();
     }
-    catch (int e) {
+    catch (int& e) {
         exceptionHandlerReadFile(getType(), readStatus);
     }
 }
