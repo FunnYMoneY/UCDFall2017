@@ -60,20 +60,20 @@ void Horse::readFile() {
 
         getline(infile, maneColor, ',');
 
-        try {
+        //try {
             getline(infile, ageString, ',');
             age = static_cast<int>(strtol(ageString.c_str(), NULL, 0));
-        }
-        catch(int& e) {
-            exceptionHandlerNumber(getType(), "age", age);
-        }
-        try {
+        //}
+        //catch(std::invalid_argument) {
+        //    exceptionHandlerNumber(getType(), "age", age);
+        //}
+        //try {
             getline(infile, heightString);
             height = static_cast<int>(strtol(heightString.c_str(), NULL, 0));
-        }
-        catch (int& e) {
-            exceptionHandlerNumber(getType(), "height", height);
-        }
+        //}
+        //catch (std::invalid_argument) {
+        //    exceptionHandlerNumber(getType(), "height", height);
+        //}
 
         infile.clear();
     }

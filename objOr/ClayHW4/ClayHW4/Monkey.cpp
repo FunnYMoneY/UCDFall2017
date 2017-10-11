@@ -66,13 +66,13 @@ void Monkey::readFile() {
 
         getline(infile, color, ',');
 
-        try {
+        //try {
             getline(infile, ageString, ',');
             age = static_cast<int>(strtol(ageString.c_str(), NULL, 0));
-        }
-        catch (int& e) {
-            exceptionHandlerNumber(getType(), "age", age);
-        }
+        //}
+        //catch (std::invalid_argument) {
+        //    exceptionHandlerNumber(getType(), "age", age);
+        //}
 
         infile.ignore();
         getline(infile, wildString, ',');

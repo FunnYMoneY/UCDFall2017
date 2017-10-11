@@ -76,7 +76,7 @@ void Fish::readFile() {
 
         infile.clear();
     }
-    catch (int e) {
+    catch (int& e) {
         exceptionHandlerReadFile(getType(), readStatus);
     }
 }

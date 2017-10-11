@@ -57,29 +57,37 @@ void Dog::readFile() {
         infile.ignore();
 
         getline(infile, breed, ',');
-        try {
+        //try {
             getline(infile, ageString, ',');
             age = static_cast<int>(strtol(ageString.c_str(), NULL, 0));
-        }
-        catch(int& e) {
-            exceptionHandlerNumber(getType(), "age", age);
-        }
+        //}
+        //catch(std::invalid_argument) {
+        //   exceptionHandlerNumber(getType(), "age", age);
+        //}
 
         infile.ignore();
         getline(infile, color, ',');
+        //if(!infile.good())
+        //    throw 2;
 
-        try {
+        //try {
             getline(infile, weightString);
             weight = static_cast<int>(strtol(weightString.c_str(), NULL, 0));
-        }
-        catch (int& e) {
-            exceptionHandlerNumber(getType(), "weight", weight);
-        }
+        //}
+        //catch (std::invalid_argument) {
+        //    exceptionHandlerNumber(getType(), "weight", weight);
+        //}
 
         infile.clear();
     }
     catch(int& e) {
-        exceptionHandlerReadFile(getType(), readStatus);
+        switch(e) {
+            case 1:
+                exceptionHandlerReadFile(getType(), readStatus);
+                break;
+            case 2:
+                cout << "Error reading file for" << endl;
+        }
     }
 }
 
@@ -96,6 +104,6 @@ void Dog::subtract10() {
     weight -= 10;
 }
 
-string Dog::getType() const{
+string Dog::getType() const {
     return "Dog";
 }
