@@ -63,4 +63,3 @@ void Animal::exceptionHandlerNumber(const string& type,const string& in, double&
     num = 0;
 }
 
-

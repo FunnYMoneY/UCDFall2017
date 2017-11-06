@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/scott/Documents/UCDFall2017/objOr/ClayFinalProj/Battleship.cpp
+Battleship.h
+/Users/scott/Documents/UCDFall2017/objOr/ClayFinalProj/Battleship.h
+
+/Users/scott/Documents/UCDFall2017/objOr/ClayFinalProj/Battleship.h
+Gameboard.h
+/Users/scott/Documents/UCDFall2017/objOr/ClayFinalProj/Gameboard.h
+
+/Users/scott/Documents/UCDFall2017/objOr/ClayFinalProj/Gameboard.cpp
+Gameboard.h
+/Users/scott/Documents/UCDFall2017/objOr/ClayFinalProj/Gameboard.h
+iostream
+-
+
+/Users/scott/Documents/UCDFall2017/objOr/ClayFinalProj/Gameboard.h
+
+/Users/scott/Documents/UCDFall2017/objOr/ClayFinalProj/cmake-build-debug/WaterVehicle.cpp
+WaterVehicle.h
+/Users/scott/Documents/UCDFall2017/objOr/ClayFinalProj/cmake-build-debug/WaterVehicle.h
+
+/Users/scott/Documents/UCDFall2017/objOr/ClayFinalProj/cmake-build-debug/WaterVehicle.h
+
+/Users/scott/Documents/UCDFall2017/objOr/ClayFinalProj/main.cpp
+Battleship.h
+/Users/scott/Documents/UCDFall2017/objOr/ClayFinalProj/Battleship.h
+iostream
+-
+

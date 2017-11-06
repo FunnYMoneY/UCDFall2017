@@ -1,0 +1,3 @@
+/Users/scott/Documents/UCDFall2017/objOr/ClayFinalProj/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/scott/Documents/UCDFall2017/objOr/ClayFinalProj/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/scott/Documents/UCDFall2017/objOr/ClayFinalProj/cmake-build-debug/CMakeFiles/ClayFinalProj.dir
