@@ -91,6 +91,9 @@
 		<Unit filename="/Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/Maze.txt">
 			<Option target="Assignment5"/>
 		</Unit>
+		<Unit filename="/Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/Room.h">
+			<Option target="Assignment5"/>
+		</Unit>
 		<Unit filename="/Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug/Assignment5">
 			<Option target="Assignment5"/>
 		</Unit>

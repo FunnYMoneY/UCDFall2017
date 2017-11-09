@@ -1,0 +1,19 @@
+CC = g++
+CFLAGS = -g
+OBJECTS = main.o Maze.o
+MAIN = ClayHW5
+
+all : main zipIt clean
+
+main : $(OBJECTS)
+	$(CC) $(CFLAGS) $(OBJECTS) -o $(MAIN)
+
+%.o : %.cpp
+	$(CC) $(CFLAGS) -c $<
+
+clean :
+	rm $(OBJECTS)
+
+zipIt :
+	zip -r $(MAIN) *.cpp *.h Maze.txt README makefile
+
