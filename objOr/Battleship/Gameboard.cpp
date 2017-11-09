@@ -15,21 +15,21 @@ Gameboard::Gameboard() throw ( std::string ) {
     if ( !positionsFile.is_open() )
         throw "Error Reading File";
     initializeShip(Carrier, positionsFile);
-    positionsFile.ignore('\n');
+    //positionsFile.ignore('\n');
     initializeShip(Battleship, positionsFile);
-    positionsFile.ignore('\n');
+    //positionsFile.ignore('\n');
     initializeShip(Destroyer, positionsFile);
-    positionsFile.ignore('\n');
+    //positionsFile.ignore('\n');
     initializeShip(Submarine, positionsFile);
-    positionsFile.ignore('\n');
+    //positionsFile.ignore('\n');
     initializeShip(PTboat, positionsFile);
-    positionsFile.ignore('\n');
+    //positionsFile.ignore('\n');
     initializeShip(Cruiser, positionsFile);
 
 
 
 }
 
-void Gameboard::initializeShip( WaterVehicle &ship, std::ifstream &infile) {
-    ship = WaterVehicle( infile );
+void Gameboard::initializeShip( WaterVehicle* ship, std::ifstream &infile) {
+    *ship = WaterVehicle( infile );
 }

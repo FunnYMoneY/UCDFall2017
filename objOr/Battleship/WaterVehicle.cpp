@@ -48,7 +48,7 @@ void WaterVehicle::readShipFile( std::ifstream &positions ) throw( string ){
     if ( column < 1 || column > 10 )
         throw "coordinateError";
 
-    getline( positions, orientation, DELIMITER );
+    getline( positions, orientation );
     if ( orientation != "H" || orientation != "V" )
         throw "orientationError";
 

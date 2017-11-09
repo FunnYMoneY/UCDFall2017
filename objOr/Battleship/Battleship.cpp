@@ -16,16 +16,20 @@ int main() {
                 cin >> name;
                 try {
                     Human player1(name);
-                    //Computer player2(chooseDifficulty());
+                    Computer player2(chooseDifficulty());
                     playRound(player1, player1);
                 }
-                catch ( string e ) {
+                catch ( const char* e ) {
                     cout << e;
                 }
                 break;
             }
-            case 2: //TODO
-            case 3: //TODO
+            case 2: {//TODO
+                break;
+            }
+            case 3: {//TODO
+                break;
+            }
             case 4: { //TODO
                 break;
             }

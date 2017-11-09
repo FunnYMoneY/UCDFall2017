@@ -30,8 +30,8 @@ int chooseDifficulty() {
     while ( !valid ) {
         system( "clear" );
         valid = true;
-        cout << "Choose Difficulty\n" << "1. WAH! I'm a baby\n"
-             << "2. Make the computer smart!\n";
+        cout << "Choose Difficulty\n" << "1. WAH! I'm a baby (random AI)\n"
+             << "2. I want a challenge! (smart AI)\n";
         cin >> difficulty;
         if (difficulty < 1 || difficulty > 2) {
             cout << "Please Enter a valid difficulty";

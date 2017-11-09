@@ -12,13 +12,13 @@
 class Gameboard {
 public:
     Gameboard() throw ( std::string );
-    void initializeShip( WaterVehicle&, std::ifstream& );
+    void initializeShip( WaterVehicle*, std::ifstream& );
 
 
 private:
-    WaterVehicle Carrier, Battleship, Destroyer, Submarine, PTboat, Cruiser;
+    WaterVehicle *Carrier, *Battleship, *Destroyer, *Submarine, *PTboat, *Cruiser;
     WaterVehicle shipBoard[10][10];
-    std::map<std::string, WaterVehicle> positionBoard;
+    std::map<std::string, WaterVehicle*> positionBoard;
 
 };
 
