@@ -1,0 +1,16 @@
+Name: Scott Clay
+ID: 830386876
+
+Structure of program:
+---------------------
+File organization: main.cpp functions.cpp Maze.h Maze.cpp Room.h Maze.txt
+
+Functional organization: struct Room() contains a room name and four pointers to other rooms serving as passages. class Maze() contains a linked list of Room structs and functions to initialize rooms and list from an input file Maze.txt. main() takes user input to traverse a maze of class Maze and outputs current location and potential locations to assist user. 
+	 
+
+Status: works completely
+
+Hardware & Platform I used: 2.3 GHz Intel core i5 processor with 8GB RAM (macOS High Sierra operating system) compiled with g++ 4.2.1 and run in iTerm2 and CLion
+
+Compile: extract the archive, and then from a shell, go to ClayHW5 directory and run "make". This will create an executable “ClayHW5”. Then run ./ClayHW5
+

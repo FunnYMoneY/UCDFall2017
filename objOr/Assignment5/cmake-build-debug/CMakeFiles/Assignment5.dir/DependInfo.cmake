@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/scott/Documents/UCDFall2017/objOr/Assignment5/Room.cpp" "/Users/scott/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug/CMakeFiles/Assignment5.dir/Room.cpp.o"
-  "/Users/scott/Documents/UCDFall2017/objOr/Assignment5/main.cpp" "/Users/scott/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug/CMakeFiles/Assignment5.dir/main.cpp.o"
+  "/Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/Maze.cpp" "/Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug/CMakeFiles/Assignment5.dir/Maze.cpp.o"
+  "/Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/main.cpp" "/Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug/CMakeFiles/Assignment5.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/scott/Documents/UCDFall2017/objOr/Assignment5
+CMAKE_SOURCE_DIR = /Users/scottclay/Documents/UCDFall2017/objOr/Assignment5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/scott/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Assignment5.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Assignment5.dir/flags.make
 
 CMakeFiles/Assignment5.dir/main.cpp.o: CMakeFiles/Assignment5.dir/flags.make
 CMakeFiles/Assignment5.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scott/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Assignment5.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment5.dir/main.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/Assignment5/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Assignment5.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment5.dir/main.cpp.o -c /Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/main.cpp
 
 CMakeFiles/Assignment5.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment5.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/Assignment5/main.cpp > CMakeFiles/Assignment5.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/main.cpp > CMakeFiles/Assignment5.dir/main.cpp.i
 
 CMakeFiles/Assignment5.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment5.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/Assignment5/main.cpp -o CMakeFiles/Assignment5.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/main.cpp -o CMakeFiles/Assignment5.dir/main.cpp.s
 
 CMakeFiles/Assignment5.dir/main.cpp.o.requires:
 
@@ -81,43 +81,43 @@ CMakeFiles/Assignment5.dir/main.cpp.o.provides: CMakeFiles/Assignment5.dir/main.
 CMakeFiles/Assignment5.dir/main.cpp.o.provides.build: CMakeFiles/Assignment5.dir/main.cpp.o
 
 
-CMakeFiles/Assignment5.dir/Room.cpp.o: CMakeFiles/Assignment5.dir/flags.make
-CMakeFiles/Assignment5.dir/Room.cpp.o: ../Room.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scott/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Assignment5.dir/Room.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment5.dir/Room.cpp.o -c /Users/scott/Documents/UCDFall2017/objOr/Assignment5/Room.cpp
+CMakeFiles/Assignment5.dir/Maze.cpp.o: CMakeFiles/Assignment5.dir/flags.make
+CMakeFiles/Assignment5.dir/Maze.cpp.o: ../Maze.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Assignment5.dir/Maze.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment5.dir/Maze.cpp.o -c /Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/Maze.cpp
 
-CMakeFiles/Assignment5.dir/Room.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment5.dir/Room.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scott/Documents/UCDFall2017/objOr/Assignment5/Room.cpp > CMakeFiles/Assignment5.dir/Room.cpp.i
+CMakeFiles/Assignment5.dir/Maze.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment5.dir/Maze.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/Maze.cpp > CMakeFiles/Assignment5.dir/Maze.cpp.i
 
-CMakeFiles/Assignment5.dir/Room.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment5.dir/Room.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scott/Documents/UCDFall2017/objOr/Assignment5/Room.cpp -o CMakeFiles/Assignment5.dir/Room.cpp.s
+CMakeFiles/Assignment5.dir/Maze.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment5.dir/Maze.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/Maze.cpp -o CMakeFiles/Assignment5.dir/Maze.cpp.s
 
-CMakeFiles/Assignment5.dir/Room.cpp.o.requires:
+CMakeFiles/Assignment5.dir/Maze.cpp.o.requires:
 
-.PHONY : CMakeFiles/Assignment5.dir/Room.cpp.o.requires
+.PHONY : CMakeFiles/Assignment5.dir/Maze.cpp.o.requires
 
-CMakeFiles/Assignment5.dir/Room.cpp.o.provides: CMakeFiles/Assignment5.dir/Room.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Assignment5.dir/build.make CMakeFiles/Assignment5.dir/Room.cpp.o.provides.build
-.PHONY : CMakeFiles/Assignment5.dir/Room.cpp.o.provides
+CMakeFiles/Assignment5.dir/Maze.cpp.o.provides: CMakeFiles/Assignment5.dir/Maze.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Assignment5.dir/build.make CMakeFiles/Assignment5.dir/Maze.cpp.o.provides.build
+.PHONY : CMakeFiles/Assignment5.dir/Maze.cpp.o.provides
 
-CMakeFiles/Assignment5.dir/Room.cpp.o.provides.build: CMakeFiles/Assignment5.dir/Room.cpp.o
+CMakeFiles/Assignment5.dir/Maze.cpp.o.provides.build: CMakeFiles/Assignment5.dir/Maze.cpp.o
 
 
 # Object files for target Assignment5
 Assignment5_OBJECTS = \
 "CMakeFiles/Assignment5.dir/main.cpp.o" \
-"CMakeFiles/Assignment5.dir/Room.cpp.o"
+"CMakeFiles/Assignment5.dir/Maze.cpp.o"
 
 # External object files for target Assignment5
 Assignment5_EXTERNAL_OBJECTS =
 
 Assignment5: CMakeFiles/Assignment5.dir/main.cpp.o
-Assignment5: CMakeFiles/Assignment5.dir/Room.cpp.o
+Assignment5: CMakeFiles/Assignment5.dir/Maze.cpp.o
 Assignment5: CMakeFiles/Assignment5.dir/build.make
 Assignment5: CMakeFiles/Assignment5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/scott/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Assignment5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Assignment5"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Assignment5.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,7 +126,7 @@ CMakeFiles/Assignment5.dir/build: Assignment5
 .PHONY : CMakeFiles/Assignment5.dir/build
 
 CMakeFiles/Assignment5.dir/requires: CMakeFiles/Assignment5.dir/main.cpp.o.requires
-CMakeFiles/Assignment5.dir/requires: CMakeFiles/Assignment5.dir/Room.cpp.o.requires
+CMakeFiles/Assignment5.dir/requires: CMakeFiles/Assignment5.dir/Maze.cpp.o.requires
 
 .PHONY : CMakeFiles/Assignment5.dir/requires
 
@@ -135,6 +135,6 @@ CMakeFiles/Assignment5.dir/clean:
 .PHONY : CMakeFiles/Assignment5.dir/clean
 
 CMakeFiles/Assignment5.dir/depend:
-	cd /Users/scott/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/scott/Documents/UCDFall2017/objOr/Assignment5 /Users/scott/Documents/UCDFall2017/objOr/Assignment5 /Users/scott/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug /Users/scott/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug /Users/scott/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug/CMakeFiles/Assignment5.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/scottclay/Documents/UCDFall2017/objOr/Assignment5 /Users/scottclay/Documents/UCDFall2017/objOr/Assignment5 /Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug /Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug /Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug/CMakeFiles/Assignment5.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Assignment5.dir/depend
 

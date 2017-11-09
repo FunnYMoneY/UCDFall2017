@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/scott/Documents/UCDFall2017/objOr/Assignment5
+CMAKE_SOURCE_DIR = /Users/scottclay/Documents/UCDFall2017/objOr/Assignment5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/scott/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/scott/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug/CMakeFiles /Users/scott/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug/CMakeFiles /Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/scott/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/scottclay/Documents/UCDFall2017/objOr/Assignment5/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ Assignment5/fast:
 	$(MAKE) -f CMakeFiles/Assignment5.dir/build.make CMakeFiles/Assignment5.dir/build
 .PHONY : Assignment5/fast
 
-Room.o: Room.cpp.o
+Maze.o: Maze.cpp.o
 
-.PHONY : Room.o
+.PHONY : Maze.o
 
 # target to build an object file
-Room.cpp.o:
-	$(MAKE) -f CMakeFiles/Assignment5.dir/build.make CMakeFiles/Assignment5.dir/Room.cpp.o
-.PHONY : Room.cpp.o
+Maze.cpp.o:
+	$(MAKE) -f CMakeFiles/Assignment5.dir/build.make CMakeFiles/Assignment5.dir/Maze.cpp.o
+.PHONY : Maze.cpp.o
 
-Room.i: Room.cpp.i
+Maze.i: Maze.cpp.i
 
-.PHONY : Room.i
+.PHONY : Maze.i
 
 # target to preprocess a source file
-Room.cpp.i:
-	$(MAKE) -f CMakeFiles/Assignment5.dir/build.make CMakeFiles/Assignment5.dir/Room.cpp.i
-.PHONY : Room.cpp.i
+Maze.cpp.i:
+	$(MAKE) -f CMakeFiles/Assignment5.dir/build.make CMakeFiles/Assignment5.dir/Maze.cpp.i
+.PHONY : Maze.cpp.i
 
-Room.s: Room.cpp.s
+Maze.s: Maze.cpp.s
 
-.PHONY : Room.s
+.PHONY : Maze.s
 
 # target to generate assembly for a file
-Room.cpp.s:
-	$(MAKE) -f CMakeFiles/Assignment5.dir/build.make CMakeFiles/Assignment5.dir/Room.cpp.s
-.PHONY : Room.cpp.s
+Maze.cpp.s:
+	$(MAKE) -f CMakeFiles/Assignment5.dir/build.make CMakeFiles/Assignment5.dir/Maze.cpp.s
+.PHONY : Maze.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Assignment5"
-	@echo "... Room.o"
-	@echo "... Room.i"
-	@echo "... Room.s"
+	@echo "... Maze.o"
+	@echo "... Maze.i"
+	@echo "... Maze.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
