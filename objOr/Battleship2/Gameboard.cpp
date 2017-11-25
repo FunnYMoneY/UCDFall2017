@@ -3,7 +3,9 @@
 //
 
 #include "Gameboard.h"
+#include <iostream>
 #include <iomanip>
+#include <fstream>
 using std::cout;
 using std::endl;
 using std::string;
@@ -13,10 +15,20 @@ Gameboard::Gameboard() {
 
 }
 
-Gameboard::Gameboard(std::string filePath) {
+Gameboard::Gameboard(string filePath) {
+    initializeShotBoard();
+    std::ifstream infile( filePath.c_str() );
+
+    initializeShip( ship1, &infile );
+    initializeShip( ship2, &infile );
+    initializeShip( ship3, &infile );
+    initializeShip( ship4, &infile );
+    initializeShip( ship5, &infile );
+    initializeShip( ship6, &infile );
 
 }
 
+//----------------------Constructor Helpers------------------------
 void Gameboard::initializeShotBoard() {
     for ( int y = 0; y < 10; y++ ) {
         for ( int x = 0; x < 10; x++ )
@@ -24,6 +36,33 @@ void Gameboard::initializeShotBoard() {
     }
 }
 
+void Gameboard::initializeShip( WaterVehicle* ship, std::fstream infile ) {
+    string name;
+    getline( infile, name, ',' );
+    ship = new WaterVehicle( name );
+    infile.ignore(' ');
+
+    string startingPos;
+    getline( infile, startingPos, ',' );
+    int* coord = convertCoordInput(startingPos);
+    if (coord[0] == -1 || coord[1] == -1) {
+        //todo
+    }
+
+    infile.ignore(' ');
+    string orientation;
+    getline( infile, orientation);
+
+    placeBoat( ship, coord[0], coord[1], orientation[0] );
+
+}
+
+init boatboard
+random boat ( boat, int, int, char )
+place boat
+int* convertCoordInput(string)
+
+//----------------------------Display-------------------------------
 void Gameboard::displayShipBoard() {
     cout << "Players Ships/Opponent's shots\n";
     for ( int y = 0; y < 10; y++ ) {
@@ -54,57 +93,17 @@ void Gameboard::displayShotBoard() {
 }
 
 bool Gameboard::validateShot( string coordinate ) {
-    bool valid = true;
-    int ycoord = charToInt( coordinate[0] );
-    if ( char charToInt( coordinate[2] == 0 ) )
-        
-    cout << charToInt(coordinate[0]) << endl;
-    if ( charToInt( coordinate[0] ) == -1 || charToInt( coordinate[1] ) == -1 )
-        valid = false;
-    if ( valid && charToInt( coordinate[2] ) != 0 )
-        valid = false;
-
-    if(valid)
-        cout << "true\n";
-    else
-        cout << "false\n";
-
+    bool valid = false;
+    if ( coordinate[0] >= 'A' && coordinate[0] <= 'J' || coordinate[0] >= 'a' && coordinate[0] <= 'j' ) {
+        if (coordinate[1] >= '1' && coordinate[1] <= '9') {
+            if (coordinate.length() == 3) {
+                if (coordinate[2] == '0')
+                    valid = true;
+            } else
+                valid = true;
+        }
+    }
     return valid;
-}
-
-int Gameboard::charToInt( char in ) {
-    int coord = 0;
-    if ( in >= 'A' && in <= 'J' )
-        coord = in - 'A' + 1;
-    else if ( in >= 'a'  && in <= 'j' )
-        coord = in - 'a' + 1;
-    else if ( in >= '1' && in <= '9' )
-        coord = in - '0';
-    return coord;
-
-    /*int numCoord = 0;
-    if ( letter == 'A' || letter == 'a' )
-        numCoord = 1;
-    else if ( letter == 'B' || letter == 'b' )
-        numCoord = 2;
-    else if ( letter == 'C' || letter == 'c' )
-        numCoord = 3;
-    else if ( letter == 'D' || letter == 'd' )
-        numCoord = 4;
-    else if ( letter == 'E' || letter == 'e' )
-        numCoord = 5;
-    else if ( letter == 'F' || letter == 'f' )
-        numCoord = 6;
-    else if ( letter == 'G' || letter == 'g' )
-        numCoord = 7;
-    else if ( letter == 'H' || letter == 'h' )
-        numCoord = 8;
-    else if ( letter == 'I' || letter == 'i' )
-        numCoord = 9;
-    else if ( letter == 'J' || letter == 'j' )
-        numCoord = 10;
-    return numCoord;
-     */
 }
 
 void Gameboard::takeShot() {

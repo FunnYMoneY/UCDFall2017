@@ -11,11 +11,15 @@ class Gameboard {
 public:
     Gameboard(); //default constructor
     Gameboard( std::string ); //constructor
+    //constructor helpers
+    void initializeShip( WaterVehicle*, std::fstream& );
     // other
     void initializeShotBoard(); //sets all values in array to " "
     void displayShipBoard(); //displays grid with ships and opponent shots
     void displayShotBoard(); //displays grid with player's past shots
     bool validateShot( std::string ); //validates coordinate of shot
+    int getXCoord( std::string );
+    int getYCoord( std::string );
     int charToInt( char ); //converts char coordinate input to number
     void takeShot(); //places shot on board and checks hit/miss
     void placeBoat(); //positions ship on board

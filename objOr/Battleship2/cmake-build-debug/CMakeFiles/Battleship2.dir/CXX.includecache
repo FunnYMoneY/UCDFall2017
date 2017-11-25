@@ -9,7 +9,11 @@
 /home/scott/Downloads/Battleship2/Gameboard.cpp
 Gameboard.h
 /home/scott/Downloads/Battleship2/Gameboard.h
+iostream
+-
 iomanip
+-
+fstream
 -
 
 /home/scott/Downloads/Battleship2/Gameboard.h
