@@ -3,7 +3,6 @@
 //
 
 #include "Gameboard.h"
-#include <iostream>
 #include <iomanip>
 #include <fstream>
 using std::cout;
@@ -19,12 +18,12 @@ Gameboard::Gameboard(string filePath) {
     initializeShotBoard();
     std::ifstream infile( filePath.c_str() );
 
-    initializeShip( ship1, &infile );
-    initializeShip( ship2, &infile );
-    initializeShip( ship3, &infile );
-    initializeShip( ship4, &infile );
-    initializeShip( ship5, &infile );
-    initializeShip( ship6, &infile );
+    initializeShip( ship1, infile );
+    initializeShip( ship2, infile );
+    initializeShip( ship3, infile );
+    initializeShip( ship4, infile );
+    initializeShip( ship5, infile );
+    initializeShip( ship6, infile );
 
 }
 
@@ -36,7 +35,11 @@ void Gameboard::initializeShotBoard() {
     }
 }
 
-void Gameboard::initializeShip( WaterVehicle* ship, std::fstream infile ) {
+void Gameboard::initializeShipBoard() {
+
+}
+
+void Gameboard::initializeShip( WaterVehicle* ship, std::ifstream &infile ) {
     string name;
     getline( infile, name, ',' );
     ship = new WaterVehicle( name );
@@ -53,14 +56,20 @@ void Gameboard::initializeShip( WaterVehicle* ship, std::fstream infile ) {
     string orientation;
     getline( infile, orientation);
 
-    placeBoat( ship, coord[0], coord[1], orientation[0] );
+    placeShip( ship, coord[0], coord[1], orientation[0] );
 
 }
 
-init boatboard
-random boat ( boat, int, int, char )
-place boat
-int* convertCoordInput(string)
+void Gameboard::placeShip( WaterVehicle* ship, int x, int y, char orientation ) {
+    //todo
+}
+
+int* Gameboard::convertCoordInput(string) {
+    //todo
+}
+
+random boat
+
 
 //----------------------------Display-------------------------------
 void Gameboard::displayShipBoard() {
@@ -92,6 +101,7 @@ void Gameboard::displayShotBoard() {
     cout << std::setw(22) << std::setfill('-') << "-\n";
 }
 
+//------------------------------Shot stuff--------------------------------
 bool Gameboard::validateShot( string coordinate ) {
     bool valid = false;
     if ( coordinate[0] >= 'A' && coordinate[0] <= 'J' || coordinate[0] >= 'a' && coordinate[0] <= 'j' ) {
@@ -110,6 +120,3 @@ void Gameboard::takeShot() {
 
 }
 
-void Gameboard::placeBoat() {
-
-}
