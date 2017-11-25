@@ -1,30 +1,21 @@
-#include <iostream>
+#include "mainFunctions.h"
 
-#include "gameboard.h"
+using namespace mainFunctions;
 
 int main() {
     srand(time(nullptr));
 
     gameboard* myBoard = new gameboard("/Users/tylerseale/CLionProjects/Battleship/Positions.txt");
 
-    cout << "Boats Board\n";
-    myBoard->displayBoatBoard();
-
     bool keepPlaying = true;
     while(keepPlaying) {
-
-        cout << "\n\n\nNext Turn!\n\n\n";
+        startTurn();
+        displayTurnBoards(myBoard);
+        cout << "Enter 'Q' to quit any time.\n";
 
         bool validTurn = false;
         while (!validTurn) {
-
-            cout << "Shot Tracker\n";
-            myBoard->displayShotBoard();
-
-            cout << "\n\n\nEnter 'Q' to quit any time.\nEnter Coords: ";
-            string input;
-            std::cin >> input;
-
+            string input = coordinateInput();
             if (input == "Q" || input == "q") {
                 cout << "Quitting\n";
                 keepPlaying = false;
@@ -33,7 +24,15 @@ int main() {
                 validTurn = myBoard->shoot(input);
             }
         }
+
+        if(myBoard->allBoatsSunk()){
+            keepPlaying = false;
+            cout << "All Ships Sunk!\n\n";
+        }
     }
+    cout << "game ending...\n\n";
+    cout << "Shots vrs Boats\n";
+    myBoard->displayShotsOverBoats();
 
     return 0;
 }

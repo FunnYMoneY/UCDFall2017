@@ -272,21 +272,28 @@ bool gameboard::shoot(string coordinate){
     int y = yx[0];
 
     if (x == -1 || y == -1){
-        cout << "Invalid coordinate: " << coordinate << ".\n\n";
+        cout << "Invalid coordinate: " << coordinate << ".\n";
         return false;
     }
     else if(validShot(x, y)){
-        if(boatBoard[y][x] == nullptr)
+        cout << "Bombs Away..... ";
+        if(boatBoard[y][x] == nullptr) {
             shotBoard[y][x] = "O";
+            cout << "Missed!\n\n";
+        }
         else{
-            boatBoard[y][x]->decrimentHitPoints();
             shotBoard[y][x] = "X";
+            boatBoard[y][x]->decrimentHitPoints();
+            cout << "Hit!\n";
+            if(boatBoard[y][x]->isSunk())
+                cout << boatBoard[y][x]->getName() << " sunk!\n";
+            cout << endl;
         }
 
         return true;
     }
     else{
-        cout << coordinate << " has already been shot.\n\n";
+        cout << "You already shot at " << coordinate << " before.\n\n";
         return false;
     }
 }
@@ -370,31 +377,161 @@ bool gameboard::charIsInt(char charInt){
 
 
 
+// ------------------------------- status ------------------------------
+bool gameboard::allBoatsSunk(){
+    if(boat1->isSunk() && boat2->isSunk() && boat3->isSunk() && boat4->isSunk() && boat5->isSunk() && boat6->isSunk())
+        return true;
+    else
+        return false;
+}
+
+
+
 // ------------------------------ display ------------------------------
 void gameboard::displayBoatBoard() {
+    // x headers
+    cout << std::setw(46) << std::setfill('*') << "\n";
+    cout << "*   | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |10 *\n";
+
+    // loop row
     for ( int y = 0; y < 10; y++ ) {
-        cout << std::setw(42) << std::setfill('-') << "\n";
-        cout << "|";
+        // line separation
+        cout << "*" << std::setw(45) << std::setfill('-') << "*\n";
+
+        // y header
+        cout << "* ";
+        if (y == 0)
+            cout << "A";
+        else if (y == 1)
+            cout << "B";
+        else if (y == 2)
+            cout << "C";
+        else if (y == 3)
+            cout << "D";
+        else if (y == 4)
+            cout << "E";
+        else if (y == 5)
+            cout << "F";
+        else if (y == 6)
+            cout << "G";
+        else if (y == 7)
+            cout << "H";
+        else if (y == 8)
+            cout << "I";
+        else if (y == 9)
+            cout << "J";
+        cout << " ";
+
+        // loop column
         for ( int x = 0; x < 10; x++ ) {
+            // positional display
             if ( boatBoard[y][x] == nullptr )
-                cout << "   |";
+                cout << "|   ";
             else
-                cout << " # |";
+                cout << "| $ ";
         }
-        cout << endl;
+
+        // end row
+        cout << "*\n";
     }
-    cout << std::setw(42) << std::setfill('-') << "\n";
+    cout << std::setw(46) << std::setfill('*') << "\n";
 }
 
 
 void gameboard::displayShotBoard(){
+    // x headers
+    cout << std::setw(46) << std::setfill('*') << "\n";
+    cout << "*   | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |10 *\n";
+
+    // loop row
     for ( int y = 0; y < 10; y++ ) {
-        cout << std::setw(42) << std::setfill('-') << "\n";
-        cout << "|";
+        // line separation
+        cout << "*" << std::setw(45) << std::setfill('-') << "*\n";
+
+        // y header
+        cout << "* ";
+        if (y == 0)
+            cout << "A";
+        else if (y == 1)
+            cout << "B";
+        else if (y == 2)
+            cout << "C";
+        else if (y == 3)
+            cout << "D";
+        else if (y == 4)
+            cout << "E";
+        else if (y == 5)
+            cout << "F";
+        else if (y == 6)
+            cout << "G";
+        else if (y == 7)
+            cout << "H";
+        else if (y == 8)
+            cout << "I";
+        else if (y == 9)
+            cout << "J";
+        cout << " ";
+
+        // loop column
         for ( int x = 0; x < 10; x++ ) {
-            cout << " " << shotBoard[y][x] << " |";
+            // positional display
+            cout << "| " << shotBoard[y][x] << " ";
         }
-        cout << endl;
+
+        // end row
+        cout << "*\n";
     }
-    cout << std::setw(42) << std::setfill('-') << "\n";
+    cout << std::setw(46) << std::setfill('*') << "\n";
+}
+
+
+void gameboard::displayShotsOverBoats(){
+    // x headers
+    cout << std::setw(46) << std::setfill('*') << "\n";
+    cout << "*   | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |10 *\n";
+
+    // loop row
+    for ( int y = 0; y < 10; y++ ) {
+        // line separation
+        cout << "*" << std::setw(45) << std::setfill('-') << "*\n";
+
+        // y header
+        cout << "* ";
+        if (y == 0)
+            cout << "A";
+        else if (y == 1)
+            cout << "B";
+        else if (y == 2)
+            cout << "C";
+        else if (y == 3)
+            cout << "D";
+        else if (y == 4)
+            cout << "E";
+        else if (y == 5)
+            cout << "F";
+        else if (y == 6)
+            cout << "G";
+        else if (y == 7)
+            cout << "H";
+        else if (y == 8)
+            cout << "I";
+        else if (y == 9)
+            cout << "J";
+        cout << " ";
+
+        // loop column
+        for ( int x = 0; x < 10; x++ ) {
+
+            if(shotBoard[y][x] != " ")
+                cout << "| " << shotBoard[y][x] << " ";
+            else if(boatBoard[y][x] == nullptr)
+                cout << "|   ";
+            else
+                cout << "| $ ";
+        }
+
+        // end row
+        cout << "*\n";
+    }
+    cout << std::setw(46) << std::setfill('*') << "\n";
 }
