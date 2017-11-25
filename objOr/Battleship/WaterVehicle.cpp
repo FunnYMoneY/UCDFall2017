@@ -15,12 +15,13 @@ WaterVehicle::WaterVehicle(  ) {
 }
 
 WaterVehicle::WaterVehicle( std::ifstream &positions ) {
-    readShipFile( positions );
+    try { readShipFile(positions); }
+    catch (const char* )
     hitPoints = length;
     sunk = false;
 }
 
-void WaterVehicle::readShipFile( std::ifstream &positions ) throw( string ){
+void WaterVehicle::readShipFile( std::ifstream &positions ) throw( const char* ){
     const char DELIMITER = ',';
     char row;
     int column;

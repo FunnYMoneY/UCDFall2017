@@ -12,7 +12,7 @@ public:
     WaterVehicle(  );
     explicit WaterVehicle( std::ifstream &positions );
 
-    void readShipFile( std::ifstream &positions  ) throw( std::string ); //reads input stream into object
+    void readShipFile( std::ifstream &positions  ) throw( const char* ); //reads input stream into object
     void decrementHP(); //decrements number of hit points
 
     std::string getType();

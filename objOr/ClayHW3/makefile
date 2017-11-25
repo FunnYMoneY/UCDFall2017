@@ -1,6 +1,6 @@
 CC = g++
 CFLAGS = -g
-OBJECTS = clayHW2.o grid.o WaterVehicle.o Submarine.o
+OBJECTS = main.o grid.o WaterVehicle.o Submarine.o
 MAIN = ClayHW2
 
 all : main zipIt clean

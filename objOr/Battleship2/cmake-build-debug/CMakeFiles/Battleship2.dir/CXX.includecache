@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/scott/Downloads/Battleship2/Gameboard.cpp
+Gameboard.h
+/home/scott/Downloads/Battleship2/Gameboard.h
+iostream
+-
+iomanip
+-
+fstream
+-
+
+/home/scott/Downloads/Battleship2/Gameboard.h
+WaterVehicle.h
+/home/scott/Downloads/Battleship2/WaterVehicle.h
+iostream
+-
+
+/home/scott/Downloads/Battleship2/WaterVehicle.cpp
+WaterVehicle.h
+/home/scott/Downloads/Battleship2/WaterVehicle.h
+
+/home/scott/Downloads/Battleship2/WaterVehicle.h
+iostream
+-
+
+/home/scott/Downloads/Battleship2/main.cpp
+iostream
+-
+Gameboard.h
+/home/scott/Downloads/Battleship2/Gameboard.h
+
