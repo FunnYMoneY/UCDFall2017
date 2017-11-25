@@ -26,6 +26,7 @@ int main() {
             std::cin >> input;
 
             if (input == "Q" || input == "q") {
+                cout << "Quitting\n";
                 keepPlaying = false;
                 validTurn = true;
             } else {
