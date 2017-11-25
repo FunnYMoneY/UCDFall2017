@@ -19,6 +19,7 @@ private:
     WaterVehicle *Carrier, *Battleship, *Destroyer, *Submarine, *PTboat, *Cruiser;
     WaterVehicle shipBoard[10][10];
     std::map<std::string, WaterVehicle*> positionBoard;
+    bool checkShot();
 
 };
 

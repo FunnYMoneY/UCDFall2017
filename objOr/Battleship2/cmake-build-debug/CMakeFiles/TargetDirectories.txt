@@ -1,0 +1,3 @@
+/home/scott/Downloads/Battleship2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/scott/Downloads/Battleship2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/scott/Downloads/Battleship2/cmake-build-debug/CMakeFiles/Battleship2.dir

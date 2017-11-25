@@ -3,8 +3,6 @@
 //
 
 #include "Gameboard.h"
-
-
 using std::cout;
 using std::cin;
 using std::endl;
@@ -32,4 +30,8 @@ Gameboard::Gameboard() throw ( std::string ) {
 
 void Gameboard::initializeShip( WaterVehicle* ship, std::ifstream &infile) {
     *ship = WaterVehicle( infile );
+}
+
+bool Gameboard::checkShot( ) {
+
 }

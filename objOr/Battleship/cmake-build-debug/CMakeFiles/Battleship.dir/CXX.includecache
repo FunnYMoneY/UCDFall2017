@@ -6,37 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Battleship.cpp
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/Battleship.cpp
 BattleshipFunctions.h
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/BattleshipFunctions.h
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/BattleshipFunctions.h
 
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/BattleshipFunctions.h
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/BattleshipFunctions.h
 cstdlib
 -
 iostream
 -
 Human.h
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Human.h
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/Human.h
 Computer.h
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Computer.h
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/Computer.h
 Gameboard.h
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Gameboard.h
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/Gameboard.h
 WaterVehicle.h
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/WaterVehicle.h
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/WaterVehicle.h
 
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Computer.cpp
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/Computer.cpp
 Computer.h
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Computer.h
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/Computer.h
 
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Computer.h
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/Computer.h
 Player.h
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Player.h
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/Player.h
 
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Gameboard.cpp
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/Gameboard.cpp
 Gameboard.h
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Gameboard.h
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/Gameboard.h
 
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Gameboard.h
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/Gameboard.h
 iostream
 -
 map
@@ -44,35 +44,35 @@ map
 fstream
 -
 WaterVehicle.h
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/WaterVehicle.h
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/WaterVehicle.h
 
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Human.cpp
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/Human.cpp
 Human.h
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Human.h
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/Human.h
 
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Human.h
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/Human.h
 Player.h
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Player.h
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/Player.h
 
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Player.cpp
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/Player.cpp
 Player.h
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Player.h
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/Player.h
 
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Player.h
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/Player.h
 iostream
 -
 Gameboard.h
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Gameboard.h
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/Gameboard.h
 
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/WaterVehicle.cpp
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/WaterVehicle.cpp
 WaterVehicle.h
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/WaterVehicle.h
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/WaterVehicle.h
 map
 -
 fstream
 -
 
-/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/WaterVehicle.h
+/home/scott/Downloads/UCDFall2017/objOr/Battleship/WaterVehicle.h
 iostream
 -
 

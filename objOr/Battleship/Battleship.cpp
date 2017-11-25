@@ -14,14 +14,9 @@ int main() {
             case 1: {
                 cout << "Enter your name: ";
                 cin >> name;
-                try {
-                    Human player1(name);
-                    Computer player2(chooseDifficulty());
-                    playRound(player1, player1);
-                }
-                catch ( const char* e ) {
-                    cout << e;
-                }
+                Human player1( name );
+                Computer player2(chooseDifficulty());
+                //playRound( player1, player2 );
                 break;
             }
             case 2: {//TODO

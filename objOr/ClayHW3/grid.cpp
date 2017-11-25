@@ -56,7 +56,7 @@ void grid::randomizeShots() {
 		for(int i = 0; i < rows; ++i){
      			for(int j = 0; j < cols; j++){
 				if (gridArr[i][j] != 'x') {
-                    srand((unsigned)time(nullptr));
+                    srand((unsigned)time(NULL));
                     hit = rand() % 2;
                     if (hit == 1) {
                         gridArr[i][j] = 'x';

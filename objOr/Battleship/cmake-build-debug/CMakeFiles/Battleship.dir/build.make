@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/scott/Programs/clion-2017.2.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /home/scott/Programs/clion-2017.2.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/scottclay/Documents/UCDFall2017/objOr/Battleship
+CMAKE_SOURCE_DIR = /home/scott/Downloads/UCDFall2017/objOr/Battleship
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/cmake-build-debug
+CMAKE_BINARY_DIR = /home/scott/Downloads/UCDFall2017/objOr/Battleship/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Battleship.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Battleship.dir/flags.make
 
 CMakeFiles/Battleship.dir/Battleship.cpp.o: CMakeFiles/Battleship.dir/flags.make
 CMakeFiles/Battleship.dir/Battleship.cpp.o: ../Battleship.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Battleship.dir/Battleship.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Battleship.dir/Battleship.cpp.o -c /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Battleship.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/scott/Downloads/UCDFall2017/objOr/Battleship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Battleship.dir/Battleship.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Battleship.dir/Battleship.cpp.o -c /home/scott/Downloads/UCDFall2017/objOr/Battleship/Battleship.cpp
 
 CMakeFiles/Battleship.dir/Battleship.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Battleship.dir/Battleship.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Battleship.cpp > CMakeFiles/Battleship.dir/Battleship.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/scott/Downloads/UCDFall2017/objOr/Battleship/Battleship.cpp > CMakeFiles/Battleship.dir/Battleship.cpp.i
 
 CMakeFiles/Battleship.dir/Battleship.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Battleship.dir/Battleship.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Battleship.cpp -o CMakeFiles/Battleship.dir/Battleship.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/scott/Downloads/UCDFall2017/objOr/Battleship/Battleship.cpp -o CMakeFiles/Battleship.dir/Battleship.cpp.s
 
 CMakeFiles/Battleship.dir/Battleship.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Battleship.dir/Battleship.cpp.o.provides.build: CMakeFiles/Battleship
 
 CMakeFiles/Battleship.dir/Computer.cpp.o: CMakeFiles/Battleship.dir/flags.make
 CMakeFiles/Battleship.dir/Computer.cpp.o: ../Computer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Battleship.dir/Computer.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Battleship.dir/Computer.cpp.o -c /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Computer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/scott/Downloads/UCDFall2017/objOr/Battleship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Battleship.dir/Computer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Battleship.dir/Computer.cpp.o -c /home/scott/Downloads/UCDFall2017/objOr/Battleship/Computer.cpp
 
 CMakeFiles/Battleship.dir/Computer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Battleship.dir/Computer.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Computer.cpp > CMakeFiles/Battleship.dir/Computer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/scott/Downloads/UCDFall2017/objOr/Battleship/Computer.cpp > CMakeFiles/Battleship.dir/Computer.cpp.i
 
 CMakeFiles/Battleship.dir/Computer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Battleship.dir/Computer.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Computer.cpp -o CMakeFiles/Battleship.dir/Computer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/scott/Downloads/UCDFall2017/objOr/Battleship/Computer.cpp -o CMakeFiles/Battleship.dir/Computer.cpp.s
 
 CMakeFiles/Battleship.dir/Computer.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Battleship.dir/Computer.cpp.o.provides.build: CMakeFiles/Battleship.d
 
 CMakeFiles/Battleship.dir/Gameboard.cpp.o: CMakeFiles/Battleship.dir/flags.make
 CMakeFiles/Battleship.dir/Gameboard.cpp.o: ../Gameboard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Battleship.dir/Gameboard.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Battleship.dir/Gameboard.cpp.o -c /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Gameboard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/scott/Downloads/UCDFall2017/objOr/Battleship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Battleship.dir/Gameboard.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Battleship.dir/Gameboard.cpp.o -c /home/scott/Downloads/UCDFall2017/objOr/Battleship/Gameboard.cpp
 
 CMakeFiles/Battleship.dir/Gameboard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Battleship.dir/Gameboard.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Gameboard.cpp > CMakeFiles/Battleship.dir/Gameboard.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/scott/Downloads/UCDFall2017/objOr/Battleship/Gameboard.cpp > CMakeFiles/Battleship.dir/Gameboard.cpp.i
 
 CMakeFiles/Battleship.dir/Gameboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Battleship.dir/Gameboard.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Gameboard.cpp -o CMakeFiles/Battleship.dir/Gameboard.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/scott/Downloads/UCDFall2017/objOr/Battleship/Gameboard.cpp -o CMakeFiles/Battleship.dir/Gameboard.cpp.s
 
 CMakeFiles/Battleship.dir/Gameboard.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Battleship.dir/Gameboard.cpp.o.provides.build: CMakeFiles/Battleship.
 
 CMakeFiles/Battleship.dir/Human.cpp.o: CMakeFiles/Battleship.dir/flags.make
 CMakeFiles/Battleship.dir/Human.cpp.o: ../Human.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Battleship.dir/Human.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Battleship.dir/Human.cpp.o -c /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Human.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/scott/Downloads/UCDFall2017/objOr/Battleship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Battleship.dir/Human.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Battleship.dir/Human.cpp.o -c /home/scott/Downloads/UCDFall2017/objOr/Battleship/Human.cpp
 
 CMakeFiles/Battleship.dir/Human.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Battleship.dir/Human.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Human.cpp > CMakeFiles/Battleship.dir/Human.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/scott/Downloads/UCDFall2017/objOr/Battleship/Human.cpp > CMakeFiles/Battleship.dir/Human.cpp.i
 
 CMakeFiles/Battleship.dir/Human.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Battleship.dir/Human.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Human.cpp -o CMakeFiles/Battleship.dir/Human.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/scott/Downloads/UCDFall2017/objOr/Battleship/Human.cpp -o CMakeFiles/Battleship.dir/Human.cpp.s
 
 CMakeFiles/Battleship.dir/Human.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/Battleship.dir/Human.cpp.o.provides.build: CMakeFiles/Battleship.dir/
 
 CMakeFiles/Battleship.dir/Player.cpp.o: CMakeFiles/Battleship.dir/flags.make
 CMakeFiles/Battleship.dir/Player.cpp.o: ../Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Battleship.dir/Player.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Battleship.dir/Player.cpp.o -c /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/scott/Downloads/UCDFall2017/objOr/Battleship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Battleship.dir/Player.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Battleship.dir/Player.cpp.o -c /home/scott/Downloads/UCDFall2017/objOr/Battleship/Player.cpp
 
 CMakeFiles/Battleship.dir/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Battleship.dir/Player.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Player.cpp > CMakeFiles/Battleship.dir/Player.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/scott/Downloads/UCDFall2017/objOr/Battleship/Player.cpp > CMakeFiles/Battleship.dir/Player.cpp.i
 
 CMakeFiles/Battleship.dir/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Battleship.dir/Player.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/Player.cpp -o CMakeFiles/Battleship.dir/Player.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/scott/Downloads/UCDFall2017/objOr/Battleship/Player.cpp -o CMakeFiles/Battleship.dir/Player.cpp.s
 
 CMakeFiles/Battleship.dir/Player.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/Battleship.dir/Player.cpp.o.provides.build: CMakeFiles/Battleship.dir
 
 CMakeFiles/Battleship.dir/WaterVehicle.cpp.o: CMakeFiles/Battleship.dir/flags.make
 CMakeFiles/Battleship.dir/WaterVehicle.cpp.o: ../WaterVehicle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Battleship.dir/WaterVehicle.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Battleship.dir/WaterVehicle.cpp.o -c /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/WaterVehicle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/scott/Downloads/UCDFall2017/objOr/Battleship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Battleship.dir/WaterVehicle.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Battleship.dir/WaterVehicle.cpp.o -c /home/scott/Downloads/UCDFall2017/objOr/Battleship/WaterVehicle.cpp
 
 CMakeFiles/Battleship.dir/WaterVehicle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Battleship.dir/WaterVehicle.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/WaterVehicle.cpp > CMakeFiles/Battleship.dir/WaterVehicle.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/scott/Downloads/UCDFall2017/objOr/Battleship/WaterVehicle.cpp > CMakeFiles/Battleship.dir/WaterVehicle.cpp.i
 
 CMakeFiles/Battleship.dir/WaterVehicle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Battleship.dir/WaterVehicle.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/WaterVehicle.cpp -o CMakeFiles/Battleship.dir/WaterVehicle.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/scott/Downloads/UCDFall2017/objOr/Battleship/WaterVehicle.cpp -o CMakeFiles/Battleship.dir/WaterVehicle.cpp.s
 
 CMakeFiles/Battleship.dir/WaterVehicle.cpp.o.requires:
 
@@ -221,7 +221,7 @@ Battleship: CMakeFiles/Battleship.dir/Player.cpp.o
 Battleship: CMakeFiles/Battleship.dir/WaterVehicle.cpp.o
 Battleship: CMakeFiles/Battleship.dir/build.make
 Battleship: CMakeFiles/Battleship.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/scottclay/Documents/UCDFall2017/objOr/Battleship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Battleship"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/scott/Downloads/UCDFall2017/objOr/Battleship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Battleship"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Battleship.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -243,6 +243,6 @@ CMakeFiles/Battleship.dir/clean:
 .PHONY : CMakeFiles/Battleship.dir/clean
 
 CMakeFiles/Battleship.dir/depend:
-	cd /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/scottclay/Documents/UCDFall2017/objOr/Battleship /Users/scottclay/Documents/UCDFall2017/objOr/Battleship /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/cmake-build-debug /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/cmake-build-debug /Users/scottclay/Documents/UCDFall2017/objOr/Battleship/cmake-build-debug/CMakeFiles/Battleship.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/scott/Downloads/UCDFall2017/objOr/Battleship/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/scott/Downloads/UCDFall2017/objOr/Battleship /home/scott/Downloads/UCDFall2017/objOr/Battleship /home/scott/Downloads/UCDFall2017/objOr/Battleship/cmake-build-debug /home/scott/Downloads/UCDFall2017/objOr/Battleship/cmake-build-debug /home/scott/Downloads/UCDFall2017/objOr/Battleship/cmake-build-debug/CMakeFiles/Battleship.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Battleship.dir/depend
 
