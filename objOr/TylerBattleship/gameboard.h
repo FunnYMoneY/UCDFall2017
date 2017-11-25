@@ -54,6 +54,8 @@ public:
     int convertYChar(char);
     int convertXChar(char);
     bool charIsInt(char);
+    // ------------- status -------------
+    bool allBoatsSunk();
     // ------------ display -------------
     void displayBoatBoard();
     void displayShotBoard();
