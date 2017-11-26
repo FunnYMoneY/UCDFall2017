@@ -31,7 +31,7 @@ int main() {
         }
     }
     cout << "game ending...\n\n";
-    cout << "Shots vrs Boats\n";
+    cout << "Shots vs Boats\n";
     myBoard->displayShotsOverBoats();
 
     return 0;

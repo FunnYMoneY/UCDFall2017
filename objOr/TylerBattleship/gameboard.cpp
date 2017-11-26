@@ -124,7 +124,8 @@ bool gameboard::initializeBoat( waterboat* boat, ifstream& file ) {
         return false;
 
     // validate coord
-    int* yx = convertCoordInput(startingPos);
+    int yx[2];
+    convertCoordInput(startingPos, yx);
     int x = yx[1];
     int y = yx[0];
     if (x == -1 || y == -1) {
@@ -267,7 +268,8 @@ bool gameboard::placeBoatWest(waterboat* boat, int x, int y) {
 
 // ---------------------------- coordinate -----------------------------
 bool gameboard::shoot(string coordinate){
-    int* yx = convertCoordInput(coordinate);
+    int yx[2];
+    convertCoordInput(coordinate, yx);
     int x = yx[1];
     int y = yx[0];
 
@@ -309,8 +311,8 @@ bool gameboard::validShot(int x, int y){
 
 
 // --------------------------- convert input ---------------------------
-int* gameboard::convertCoordInput(string coordinate){
-    int yx[2];
+void gameboard::convertCoordInput(string coordinate, int yx[]){
+    //int yx[2];
     if(coordinate.length() == 2){
         yx[0] = convertYChar(coordinate[0]);
         yx[1] = convertXChar(coordinate[1]) - 1;
@@ -330,7 +332,7 @@ int* gameboard::convertCoordInput(string coordinate){
         yx[1] = -1;
     }
 
-    return yx;
+    //return yx;
 }
 
 

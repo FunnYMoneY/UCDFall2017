@@ -50,7 +50,7 @@ public:
     bool shoot(string);
     bool validShot(int, int);
     // --------- convert input ----------
-    int* convertCoordInput(string);
+    void convertCoordInput(string, int[]);
     int convertYChar(char);
     int convertXChar(char);
     bool charIsInt(char);
