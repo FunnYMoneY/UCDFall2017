@@ -4,9 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/scott/Downloads/Battleship2/Computer.cpp" "/home/scott/Downloads/Battleship2/cmake-build-debug/CMakeFiles/Battleship2.dir/Computer.cpp.o"
   "/home/scott/Downloads/Battleship2/Gameboard.cpp" "/home/scott/Downloads/Battleship2/cmake-build-debug/CMakeFiles/Battleship2.dir/Gameboard.cpp.o"
+  "/home/scott/Downloads/Battleship2/Human.cpp" "/home/scott/Downloads/Battleship2/cmake-build-debug/CMakeFiles/Battleship2.dir/Human.cpp.o"
+  "/home/scott/Downloads/Battleship2/Player.cpp" "/home/scott/Downloads/Battleship2/cmake-build-debug/CMakeFiles/Battleship2.dir/Player.cpp.o"
   "/home/scott/Downloads/Battleship2/WaterVehicle.cpp" "/home/scott/Downloads/Battleship2/cmake-build-debug/CMakeFiles/Battleship2.dir/WaterVehicle.cpp.o"
   "/home/scott/Downloads/Battleship2/main.cpp" "/home/scott/Downloads/Battleship2/cmake-build-debug/CMakeFiles/Battleship2.dir/main.cpp.o"
+  "/home/scott/Downloads/Battleship2/mainFunctions.cpp" "/home/scott/Downloads/Battleship2/cmake-build-debug/CMakeFiles/Battleship2.dir/mainFunctions.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

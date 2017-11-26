@@ -129,11 +129,111 @@ CMakeFiles/Battleship2.dir/Gameboard.cpp.o.provides: CMakeFiles/Battleship2.dir/
 CMakeFiles/Battleship2.dir/Gameboard.cpp.o.provides.build: CMakeFiles/Battleship2.dir/Gameboard.cpp.o
 
 
+CMakeFiles/Battleship2.dir/Player.cpp.o: CMakeFiles/Battleship2.dir/flags.make
+CMakeFiles/Battleship2.dir/Player.cpp.o: ../Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/scott/Downloads/Battleship2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Battleship2.dir/Player.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Battleship2.dir/Player.cpp.o -c /home/scott/Downloads/Battleship2/Player.cpp
+
+CMakeFiles/Battleship2.dir/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Battleship2.dir/Player.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/scott/Downloads/Battleship2/Player.cpp > CMakeFiles/Battleship2.dir/Player.cpp.i
+
+CMakeFiles/Battleship2.dir/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Battleship2.dir/Player.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/scott/Downloads/Battleship2/Player.cpp -o CMakeFiles/Battleship2.dir/Player.cpp.s
+
+CMakeFiles/Battleship2.dir/Player.cpp.o.requires:
+
+.PHONY : CMakeFiles/Battleship2.dir/Player.cpp.o.requires
+
+CMakeFiles/Battleship2.dir/Player.cpp.o.provides: CMakeFiles/Battleship2.dir/Player.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Battleship2.dir/build.make CMakeFiles/Battleship2.dir/Player.cpp.o.provides.build
+.PHONY : CMakeFiles/Battleship2.dir/Player.cpp.o.provides
+
+CMakeFiles/Battleship2.dir/Player.cpp.o.provides.build: CMakeFiles/Battleship2.dir/Player.cpp.o
+
+
+CMakeFiles/Battleship2.dir/mainFunctions.cpp.o: CMakeFiles/Battleship2.dir/flags.make
+CMakeFiles/Battleship2.dir/mainFunctions.cpp.o: ../mainFunctions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/scott/Downloads/Battleship2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Battleship2.dir/mainFunctions.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Battleship2.dir/mainFunctions.cpp.o -c /home/scott/Downloads/Battleship2/mainFunctions.cpp
+
+CMakeFiles/Battleship2.dir/mainFunctions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Battleship2.dir/mainFunctions.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/scott/Downloads/Battleship2/mainFunctions.cpp > CMakeFiles/Battleship2.dir/mainFunctions.cpp.i
+
+CMakeFiles/Battleship2.dir/mainFunctions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Battleship2.dir/mainFunctions.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/scott/Downloads/Battleship2/mainFunctions.cpp -o CMakeFiles/Battleship2.dir/mainFunctions.cpp.s
+
+CMakeFiles/Battleship2.dir/mainFunctions.cpp.o.requires:
+
+.PHONY : CMakeFiles/Battleship2.dir/mainFunctions.cpp.o.requires
+
+CMakeFiles/Battleship2.dir/mainFunctions.cpp.o.provides: CMakeFiles/Battleship2.dir/mainFunctions.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Battleship2.dir/build.make CMakeFiles/Battleship2.dir/mainFunctions.cpp.o.provides.build
+.PHONY : CMakeFiles/Battleship2.dir/mainFunctions.cpp.o.provides
+
+CMakeFiles/Battleship2.dir/mainFunctions.cpp.o.provides.build: CMakeFiles/Battleship2.dir/mainFunctions.cpp.o
+
+
+CMakeFiles/Battleship2.dir/Computer.cpp.o: CMakeFiles/Battleship2.dir/flags.make
+CMakeFiles/Battleship2.dir/Computer.cpp.o: ../Computer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/scott/Downloads/Battleship2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Battleship2.dir/Computer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Battleship2.dir/Computer.cpp.o -c /home/scott/Downloads/Battleship2/Computer.cpp
+
+CMakeFiles/Battleship2.dir/Computer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Battleship2.dir/Computer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/scott/Downloads/Battleship2/Computer.cpp > CMakeFiles/Battleship2.dir/Computer.cpp.i
+
+CMakeFiles/Battleship2.dir/Computer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Battleship2.dir/Computer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/scott/Downloads/Battleship2/Computer.cpp -o CMakeFiles/Battleship2.dir/Computer.cpp.s
+
+CMakeFiles/Battleship2.dir/Computer.cpp.o.requires:
+
+.PHONY : CMakeFiles/Battleship2.dir/Computer.cpp.o.requires
+
+CMakeFiles/Battleship2.dir/Computer.cpp.o.provides: CMakeFiles/Battleship2.dir/Computer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Battleship2.dir/build.make CMakeFiles/Battleship2.dir/Computer.cpp.o.provides.build
+.PHONY : CMakeFiles/Battleship2.dir/Computer.cpp.o.provides
+
+CMakeFiles/Battleship2.dir/Computer.cpp.o.provides.build: CMakeFiles/Battleship2.dir/Computer.cpp.o
+
+
+CMakeFiles/Battleship2.dir/Human.cpp.o: CMakeFiles/Battleship2.dir/flags.make
+CMakeFiles/Battleship2.dir/Human.cpp.o: ../Human.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/scott/Downloads/Battleship2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Battleship2.dir/Human.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Battleship2.dir/Human.cpp.o -c /home/scott/Downloads/Battleship2/Human.cpp
+
+CMakeFiles/Battleship2.dir/Human.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Battleship2.dir/Human.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/scott/Downloads/Battleship2/Human.cpp > CMakeFiles/Battleship2.dir/Human.cpp.i
+
+CMakeFiles/Battleship2.dir/Human.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Battleship2.dir/Human.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/scott/Downloads/Battleship2/Human.cpp -o CMakeFiles/Battleship2.dir/Human.cpp.s
+
+CMakeFiles/Battleship2.dir/Human.cpp.o.requires:
+
+.PHONY : CMakeFiles/Battleship2.dir/Human.cpp.o.requires
+
+CMakeFiles/Battleship2.dir/Human.cpp.o.provides: CMakeFiles/Battleship2.dir/Human.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Battleship2.dir/build.make CMakeFiles/Battleship2.dir/Human.cpp.o.provides.build
+.PHONY : CMakeFiles/Battleship2.dir/Human.cpp.o.provides
+
+CMakeFiles/Battleship2.dir/Human.cpp.o.provides.build: CMakeFiles/Battleship2.dir/Human.cpp.o
+
+
 # Object files for target Battleship2
 Battleship2_OBJECTS = \
 "CMakeFiles/Battleship2.dir/main.cpp.o" \
 "CMakeFiles/Battleship2.dir/WaterVehicle.cpp.o" \
-"CMakeFiles/Battleship2.dir/Gameboard.cpp.o"
+"CMakeFiles/Battleship2.dir/Gameboard.cpp.o" \
+"CMakeFiles/Battleship2.dir/Player.cpp.o" \
+"CMakeFiles/Battleship2.dir/mainFunctions.cpp.o" \
+"CMakeFiles/Battleship2.dir/Computer.cpp.o" \
+"CMakeFiles/Battleship2.dir/Human.cpp.o"
 
 # External object files for target Battleship2
 Battleship2_EXTERNAL_OBJECTS =
@@ -141,9 +241,13 @@ Battleship2_EXTERNAL_OBJECTS =
 Battleship2: CMakeFiles/Battleship2.dir/main.cpp.o
 Battleship2: CMakeFiles/Battleship2.dir/WaterVehicle.cpp.o
 Battleship2: CMakeFiles/Battleship2.dir/Gameboard.cpp.o
+Battleship2: CMakeFiles/Battleship2.dir/Player.cpp.o
+Battleship2: CMakeFiles/Battleship2.dir/mainFunctions.cpp.o
+Battleship2: CMakeFiles/Battleship2.dir/Computer.cpp.o
+Battleship2: CMakeFiles/Battleship2.dir/Human.cpp.o
 Battleship2: CMakeFiles/Battleship2.dir/build.make
 Battleship2: CMakeFiles/Battleship2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/scott/Downloads/Battleship2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Battleship2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/scott/Downloads/Battleship2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Battleship2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Battleship2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +258,10 @@ CMakeFiles/Battleship2.dir/build: Battleship2
 CMakeFiles/Battleship2.dir/requires: CMakeFiles/Battleship2.dir/main.cpp.o.requires
 CMakeFiles/Battleship2.dir/requires: CMakeFiles/Battleship2.dir/WaterVehicle.cpp.o.requires
 CMakeFiles/Battleship2.dir/requires: CMakeFiles/Battleship2.dir/Gameboard.cpp.o.requires
+CMakeFiles/Battleship2.dir/requires: CMakeFiles/Battleship2.dir/Player.cpp.o.requires
+CMakeFiles/Battleship2.dir/requires: CMakeFiles/Battleship2.dir/mainFunctions.cpp.o.requires
+CMakeFiles/Battleship2.dir/requires: CMakeFiles/Battleship2.dir/Computer.cpp.o.requires
+CMakeFiles/Battleship2.dir/requires: CMakeFiles/Battleship2.dir/Human.cpp.o.requires
 
 .PHONY : CMakeFiles/Battleship2.dir/requires
 

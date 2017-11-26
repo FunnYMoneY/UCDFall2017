@@ -84,10 +84,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/scott/Downloads/Battleship2/Computer.cpp">
+			<Option target="Battleship2"/>
+		</Unit>
+		<Unit filename="/home/scott/Downloads/Battleship2/Computer.h">
+			<Option target="Battleship2"/>
+		</Unit>
 		<Unit filename="/home/scott/Downloads/Battleship2/Gameboard.cpp">
 			<Option target="Battleship2"/>
 		</Unit>
 		<Unit filename="/home/scott/Downloads/Battleship2/Gameboard.h">
+			<Option target="Battleship2"/>
+		</Unit>
+		<Unit filename="/home/scott/Downloads/Battleship2/Human.cpp">
+			<Option target="Battleship2"/>
+		</Unit>
+		<Unit filename="/home/scott/Downloads/Battleship2/Human.h">
+			<Option target="Battleship2"/>
+		</Unit>
+		<Unit filename="/home/scott/Downloads/Battleship2/Player.cpp">
+			<Option target="Battleship2"/>
+		</Unit>
+		<Unit filename="/home/scott/Downloads/Battleship2/Player.h">
 			<Option target="Battleship2"/>
 		</Unit>
 		<Unit filename="/home/scott/Downloads/Battleship2/WaterVehicle.cpp">
@@ -97,6 +115,12 @@
 			<Option target="Battleship2"/>
 		</Unit>
 		<Unit filename="/home/scott/Downloads/Battleship2/main.cpp">
+			<Option target="Battleship2"/>
+		</Unit>
+		<Unit filename="/home/scott/Downloads/Battleship2/mainFunctions.cpp">
+			<Option target="Battleship2"/>
+		</Unit>
+		<Unit filename="/home/scott/Downloads/Battleship2/mainFunctions.h">
 			<Option target="Battleship2"/>
 		</Unit>
 		<Unit filename="/home/scott/Downloads/Battleship2/CMakeLists.txt">
