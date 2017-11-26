@@ -6,14 +6,28 @@
 
 #IncludeRegexTransform: 
 
+/home/scott/Downloads/Battleship2/Computer.cpp
+Computer.h
+/home/scott/Downloads/Battleship2/Computer.h
+ctime
+-
+cstdlib
+-
+string
+-
+
+/home/scott/Downloads/Battleship2/Computer.h
+Player.h
+/home/scott/Downloads/Battleship2/Player.h
+
 /home/scott/Downloads/Battleship2/Gameboard.cpp
 Gameboard.h
 /home/scott/Downloads/Battleship2/Gameboard.h
-iostream
--
 iomanip
 -
 fstream
+-
+cstdlib
 -
 
 /home/scott/Downloads/Battleship2/Gameboard.h
@@ -21,6 +35,28 @@ WaterVehicle.h
 /home/scott/Downloads/Battleship2/WaterVehicle.h
 iostream
 -
+
+/home/scott/Downloads/Battleship2/Human.cpp
+Human.h
+/home/scott/Downloads/Battleship2/Human.h
+
+/home/scott/Downloads/Battleship2/Human.h
+iostream
+-
+Player.h
+/home/scott/Downloads/Battleship2/Player.h
+Gameboard.h
+/home/scott/Downloads/Battleship2/Gameboard.h
+
+/home/scott/Downloads/Battleship2/Player.cpp
+Player.h
+/home/scott/Downloads/Battleship2/Player.h
+
+/home/scott/Downloads/Battleship2/Player.h
+iostream
+-
+Gameboard.h
+/home/scott/Downloads/Battleship2/Gameboard.h
 
 /home/scott/Downloads/Battleship2/WaterVehicle.cpp
 WaterVehicle.h
@@ -33,6 +69,24 @@ iostream
 /home/scott/Downloads/Battleship2/main.cpp
 iostream
 -
-Gameboard.h
-/home/scott/Downloads/Battleship2/Gameboard.h
+cstdlib
+-
+ctime
+-
+mainFunctions.h
+/home/scott/Downloads/Battleship2/mainFunctions.h
+
+/home/scott/Downloads/Battleship2/mainFunctions.cpp
+mainFunctions.h
+/home/scott/Downloads/Battleship2/mainFunctions.h
+
+/home/scott/Downloads/Battleship2/mainFunctions.h
+iostream
+-
+Player.h
+/home/scott/Downloads/Battleship2/Player.h
+Human.h
+/home/scott/Downloads/Battleship2/Human.h
+Computer.h
+/home/scott/Downloads/Battleship2/Computer.h
 

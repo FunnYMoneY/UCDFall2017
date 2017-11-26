@@ -123,6 +123,33 @@ Battleship2/fast:
 	$(MAKE) -f CMakeFiles/Battleship2.dir/build.make CMakeFiles/Battleship2.dir/build
 .PHONY : Battleship2/fast
 
+Computer.o: Computer.cpp.o
+
+.PHONY : Computer.o
+
+# target to build an object file
+Computer.cpp.o:
+	$(MAKE) -f CMakeFiles/Battleship2.dir/build.make CMakeFiles/Battleship2.dir/Computer.cpp.o
+.PHONY : Computer.cpp.o
+
+Computer.i: Computer.cpp.i
+
+.PHONY : Computer.i
+
+# target to preprocess a source file
+Computer.cpp.i:
+	$(MAKE) -f CMakeFiles/Battleship2.dir/build.make CMakeFiles/Battleship2.dir/Computer.cpp.i
+.PHONY : Computer.cpp.i
+
+Computer.s: Computer.cpp.s
+
+.PHONY : Computer.s
+
+# target to generate assembly for a file
+Computer.cpp.s:
+	$(MAKE) -f CMakeFiles/Battleship2.dir/build.make CMakeFiles/Battleship2.dir/Computer.cpp.s
+.PHONY : Computer.cpp.s
+
 Gameboard.o: Gameboard.cpp.o
 
 .PHONY : Gameboard.o
@@ -149,6 +176,60 @@ Gameboard.s: Gameboard.cpp.s
 Gameboard.cpp.s:
 	$(MAKE) -f CMakeFiles/Battleship2.dir/build.make CMakeFiles/Battleship2.dir/Gameboard.cpp.s
 .PHONY : Gameboard.cpp.s
+
+Human.o: Human.cpp.o
+
+.PHONY : Human.o
+
+# target to build an object file
+Human.cpp.o:
+	$(MAKE) -f CMakeFiles/Battleship2.dir/build.make CMakeFiles/Battleship2.dir/Human.cpp.o
+.PHONY : Human.cpp.o
+
+Human.i: Human.cpp.i
+
+.PHONY : Human.i
+
+# target to preprocess a source file
+Human.cpp.i:
+	$(MAKE) -f CMakeFiles/Battleship2.dir/build.make CMakeFiles/Battleship2.dir/Human.cpp.i
+.PHONY : Human.cpp.i
+
+Human.s: Human.cpp.s
+
+.PHONY : Human.s
+
+# target to generate assembly for a file
+Human.cpp.s:
+	$(MAKE) -f CMakeFiles/Battleship2.dir/build.make CMakeFiles/Battleship2.dir/Human.cpp.s
+.PHONY : Human.cpp.s
+
+Player.o: Player.cpp.o
+
+.PHONY : Player.o
+
+# target to build an object file
+Player.cpp.o:
+	$(MAKE) -f CMakeFiles/Battleship2.dir/build.make CMakeFiles/Battleship2.dir/Player.cpp.o
+.PHONY : Player.cpp.o
+
+Player.i: Player.cpp.i
+
+.PHONY : Player.i
+
+# target to preprocess a source file
+Player.cpp.i:
+	$(MAKE) -f CMakeFiles/Battleship2.dir/build.make CMakeFiles/Battleship2.dir/Player.cpp.i
+.PHONY : Player.cpp.i
+
+Player.s: Player.cpp.s
+
+.PHONY : Player.s
+
+# target to generate assembly for a file
+Player.cpp.s:
+	$(MAKE) -f CMakeFiles/Battleship2.dir/build.make CMakeFiles/Battleship2.dir/Player.cpp.s
+.PHONY : Player.cpp.s
 
 WaterVehicle.o: WaterVehicle.cpp.o
 
@@ -204,6 +285,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Battleship2.dir/build.make CMakeFiles/Battleship2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mainFunctions.o: mainFunctions.cpp.o
+
+.PHONY : mainFunctions.o
+
+# target to build an object file
+mainFunctions.cpp.o:
+	$(MAKE) -f CMakeFiles/Battleship2.dir/build.make CMakeFiles/Battleship2.dir/mainFunctions.cpp.o
+.PHONY : mainFunctions.cpp.o
+
+mainFunctions.i: mainFunctions.cpp.i
+
+.PHONY : mainFunctions.i
+
+# target to preprocess a source file
+mainFunctions.cpp.i:
+	$(MAKE) -f CMakeFiles/Battleship2.dir/build.make CMakeFiles/Battleship2.dir/mainFunctions.cpp.i
+.PHONY : mainFunctions.cpp.i
+
+mainFunctions.s: mainFunctions.cpp.s
+
+.PHONY : mainFunctions.s
+
+# target to generate assembly for a file
+mainFunctions.cpp.s:
+	$(MAKE) -f CMakeFiles/Battleship2.dir/build.make CMakeFiles/Battleship2.dir/mainFunctions.cpp.s
+.PHONY : mainFunctions.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,15 +321,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Battleship2"
+	@echo "... Computer.o"
+	@echo "... Computer.i"
+	@echo "... Computer.s"
 	@echo "... Gameboard.o"
 	@echo "... Gameboard.i"
 	@echo "... Gameboard.s"
+	@echo "... Human.o"
+	@echo "... Human.i"
+	@echo "... Human.s"
+	@echo "... Player.o"
+	@echo "... Player.i"
+	@echo "... Player.s"
 	@echo "... WaterVehicle.o"
 	@echo "... WaterVehicle.i"
 	@echo "... WaterVehicle.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mainFunctions.o"
+	@echo "... mainFunctions.i"
+	@echo "... mainFunctions.s"
 .PHONY : help
 
 

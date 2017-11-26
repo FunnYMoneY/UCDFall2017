@@ -1,0 +1,6 @@
+Carrier, A5, V
+Battleship, J2, H
+Destroyer, C1, V
+Submarine, F7, H
+PT Boat, B10, V
+Cruiser, D3, V
